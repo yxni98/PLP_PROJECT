@@ -40,14 +40,14 @@ def generate_sentence(path, lowercase=False):
     return filtered_data
 
 def tokenizer(text):
+    url = re.compile('(<url>.*</url>)')
+    spacy_en = spacy.load('en_core_web_sm')
     def legal_verify(x):
         return len(x) >= 1 and not x.isspace()
     tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
     return list(filter(legal_verify, tokens))
 
 def generate_vocab(data, max_size, min_freq):
-    url = re.compile('(<url>.*</url>)')
-    spacy_en = spacy.load('en_core_web_sm')
 
     if max_size == 'None':
         max_size = None
