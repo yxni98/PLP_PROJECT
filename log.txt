@@ -1,0 +1,57 @@
+nohup: ignoring input
+2022-03-28 11:25:34.588370
+##################### DATA PROCESS ###################################
+2022-03-28 11:28:30.797359
+##################### TRAINING ###################################
+[epoch  0] [step  10] train_loss: 0.3419 train_acc: 0.4190 val_loss: 0.3154 val_acc: 0.5639
+[epoch  0] [step  20] train_loss: 0.3079 train_acc: 0.5359 val_loss: 0.2841 val_acc: 0.6197
+[epoch  0] [step  30] train_loss: 0.2864 train_acc: 0.5828 val_loss: 0.2805 val_acc: 0.5967
+time: 2.7012s
+[epoch  1] [step  10] train_loss: 0.2467 train_acc: 0.6435 val_loss: 0.2292 val_acc: 0.6623
+[epoch  1] [step  20] train_loss: 0.2546 train_acc: 0.6250 val_loss: 0.2197 val_acc: 0.6984
+[epoch  1] [step  30] train_loss: 0.2364 train_acc: 0.6594 val_loss: 0.2279 val_acc: 0.6754
+time: 2.3138s
+[epoch  2] [step  10] train_loss: 0.1906 train_acc: 0.7415 val_loss: 0.2094 val_acc: 0.7082
+[epoch  2] [step  20] train_loss: 0.1989 train_acc: 0.7438 val_loss: 0.2014 val_acc: 0.7213
+[epoch  2] [step  30] train_loss: 0.2015 train_acc: 0.7172 val_loss: 0.2012 val_acc: 0.7377
+time: 2.2039s
+[epoch  3] [step  10] train_loss: 0.1733 train_acc: 0.7670 val_loss: 0.2056 val_acc: 0.7180
+[epoch  3] [step  20] train_loss: 0.1497 train_acc: 0.7969 val_loss: 0.2096 val_acc: 0.7148
+[epoch  3] [step  30] train_loss: 0.1927 train_acc: 0.7344 val_loss: 0.1931 val_acc: 0.7213
+time: 2.2384s
+[epoch  4] [step  10] train_loss: 0.1658 train_acc: 0.7926 val_loss: 0.1920 val_acc: 0.7016
+[epoch  4] [step  20] train_loss: 0.1704 train_acc: 0.7734 val_loss: 0.2217 val_acc: 0.6984
+[epoch  4] [step  30] train_loss: 0.1663 train_acc: 0.7672 val_loss: 0.2026 val_acc: 0.7148
+time: 2.1784s
+[epoch  5] [step  10] train_loss: 0.1467 train_acc: 0.8068 val_loss: 0.1999 val_acc: 0.7344
+[epoch  5] [step  20] train_loss: 0.1458 train_acc: 0.8047 val_loss: 0.2061 val_acc: 0.7016
+[epoch  5] [step  30] train_loss: 0.1398 train_acc: 0.8141 val_loss: 0.2054 val_acc: 0.7016
+time: 2.1712s
+[epoch  6] [step  10] train_loss: 0.1213 train_acc: 0.8494 val_loss: 0.1883 val_acc: 0.7443
+[epoch  6] [step  20] train_loss: 0.1168 train_acc: 0.8547 val_loss: 0.1999 val_acc: 0.7508
+[epoch  6] [step  30] train_loss: 0.1267 train_acc: 0.8391 val_loss: 0.1963 val_acc: 0.7508
+time: 2.2280s
+[epoch  7] [step  10] train_loss: 0.1076 train_acc: 0.8523 val_loss: 0.2058 val_acc: 0.7279
+[epoch  7] [step  20] train_loss: 0.1117 train_acc: 0.8594 val_loss: 0.2053 val_acc: 0.7115
+[epoch  7] [step  30] train_loss: 0.1071 train_acc: 0.8484 val_loss: 0.2077 val_acc: 0.7311
+time: 2.1516s
+[epoch  8] [step  10] train_loss: 0.0915 train_acc: 0.8892 val_loss: 0.2050 val_acc: 0.7443
+[epoch  8] [step  20] train_loss: 0.0878 train_acc: 0.8984 val_loss: 0.2154 val_acc: 0.7508
+[epoch  8] [step  30] train_loss: 0.1007 train_acc: 0.8672 val_loss: 0.2344 val_acc: 0.7148
+time: 2.1661s
+[epoch  9] [step  10] train_loss: 0.0861 train_acc: 0.8892 val_loss: 0.2099 val_acc: 0.7279
+[epoch  9] [step  20] train_loss: 0.0835 train_acc: 0.8906 val_loss: 0.2477 val_acc: 0.7016
+[epoch  9] [step  30] train_loss: 0.0987 train_acc: 0.8703 val_loss: 0.2395 val_acc: 0.6984
+time: 2.1397s
+[epoch 10] [step  10] train_loss: 0.0781 train_acc: 0.8949 val_loss: 0.2258 val_acc: 0.7082
+[epoch 10] [step  20] train_loss: 0.0842 train_acc: 0.8938 val_loss: 0.2245 val_acc: 0.7311
+[epoch 10] [step  30] train_loss: 0.0812 train_acc: 0.8984 val_loss: 0.2177 val_acc: 0.7082
+time: 2.1999s
+[epoch 11] [step  10] train_loss: 0.0786 train_acc: 0.9105 val_loss: 0.2439 val_acc: 0.6951
+[epoch 11] [step  20] train_loss: 0.0689 train_acc: 0.9125 val_loss: 0.2228 val_acc: 0.7213
+[epoch 11] [step  30] train_loss: 0.0744 train_acc: 0.9016 val_loss: 0.2144 val_acc: 0.7410
+time: 2.2704s
+max_val_accuracy: 0.7508196721311475
+2022-03-28 11:29:10.952179
+##################### TESTING ###################################
+test:	accuracy: 0.7104
