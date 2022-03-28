@@ -8,6 +8,15 @@ from xml.etree.ElementTree import parse
 from data_utils.vocabulary import Vocabulary
 from data_utils.sentence2embedding import save_category_data, load_glove, load_sentiment_matrix
 
+url = re.compile('(<url>.*</url>)')
+spacy_en = spacy.load('en_core_web_sm')
+
+def tokenizer(text):
+    def legal_verify(x):
+        return len(x) >= 1 and not x.isspace()
+    tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
+    return list(filter(legal_verify, tokens))
+
 def generate_sentence(path, lowercase=False):
     tree = parse(path)
     sentences = tree.getroot()
@@ -39,16 +48,7 @@ def generate_sentence(path, lowercase=False):
             filtered_data.append(text)
     return filtered_data
 
-def tokenizer(text):
-    url = re.compile('(<url>.*</url>)')
-    spacy_en = spacy.load('en_core_web_sm')
-    def legal_verify(x):
-        return len(x) >= 1 and not x.isspace()
-    tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
-    return list(filter(legal_verify, tokens))
-
 def generate_vocab(data, max_size, min_freq):
-
     if max_size == 'None':
         max_size = None
     vocab = Vocabulary()
@@ -89,9 +89,9 @@ def data_generation(args):
     if not os.path.exists(os.path.join(args.data_path, 'processed')):
         os.makedirs(os.path.join(args.data_path, 'processed'))
 
-    save_term_data(train_data, word2index, os.path.join(args.data_path, 'processed/train.npz'))
-    save_term_data(val_data, word2index, os.path.join(args.data_path, 'processed/val.npz'))
-    save_term_data(test_data, word2index, os.path.join(args.data_path, 'processed/test.npz'))
+    save_term_data(train_data, word2index, os.path.join(args.data_path, 'processed/train.npz'), tokenizer)
+    save_term_data(val_data, word2index, os.path.join(args.data_path, 'processed/val.npz'), tokenizer)
+    save_term_data(test_data, word2index, os.path.join(args.data_path, 'processed/test.npz'), tokenizer)
 
     glove = load_glove(args.glove_file, len(index2word), word2index)
     sentiment_matrix = load_sentiment_matrix(args.glove_file, args.add_predefined_sentiment)
