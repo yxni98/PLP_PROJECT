@@ -49,7 +49,7 @@ def make_embedding():
     embedding.weight.data.copy_(torch.tensor(glove))
     return embedding
 
-def model():
+def backbone_model():
     embedding = make_embedding()
     data_path = os.path.join(args.data_path)
     log_path = os.path.join(data_path, 'log/log.yml')
