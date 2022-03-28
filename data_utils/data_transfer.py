@@ -14,8 +14,10 @@ def data_transfer(read_path, output_path):
 	for line in open(read_path+'Laptops_Train.xml.seg', 'r', encoding = 'utf-8'):
 		if count%3 == 0:
 			text = line.replace('\n', '')
+			text = line.replace('"', '')
 		elif count%3 == 1:
 			term = line.replace('\n', '')
+			term = line.replace('"', '')
 			from_index = text.index('$T$')
 			to_index = from_index+len(term)
 			from_index = str(from_index)
@@ -31,8 +33,10 @@ def data_transfer(read_path, output_path):
 	for line in open(read_path+'Laptops_Test_Gold.xml.seg', 'r', encoding = 'utf-8'):
 		if count%3 == 0:
 			text = line.replace('\n', '')
+			text = line.replace('"', '')
 		elif count%3 == 1:
 			term = line.replace('\n', '')
+			term = line.replace('"', '')
 			from_index = text.index('$T$')
 			to_index = from_index+len(term)
 			from_index = str(from_index)
