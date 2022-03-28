@@ -1,4 +1,6 @@
 from config import args
+from data_utils.data_transfer import data_transfer
+from data_utils.data_generation import data_generation
 
 read_path = './laptop_raw_data/'
 output_path = './data/raw/'
