@@ -8,15 +8,15 @@ from pytorch_pretrained_bert import BertModel, BertTokenizer
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 def save_category_data(data, word2index, path):
-	url = re.compile('(<url>.*</url>)')
+    url = re.compile('(<url>.*</url>)')
     spacy_en = spacy.load('en_core_web_sm')
 
-	def legal_verify(x):
-	    return len(x) >= 1 and not x.isspace()
+    def legal_verify(x):
+        return len(x) >= 1 and not x.isspace()
 
-	def tokenizer(text):
-	    tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
-	    return list(filter(legal_verify, tokens))
+    def tokenizer(text):
+        tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
+        return list(filter(legal_verify, tokens))
 
     dirname = os.path.dirname(path)
     if not os.path.exists(dirname):
