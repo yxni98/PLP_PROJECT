@@ -99,4 +99,4 @@ def train(args):
         print('time: %.4fs' % (end - start))
     print('max_val_accuracy:', max_val_accuracy)
 
-train()
+train(args)
