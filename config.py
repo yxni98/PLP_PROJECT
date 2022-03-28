@@ -9,5 +9,9 @@ class params(object):
 		self.min_vocab_freq = 0
 		self.glove_file = './data/glove.840B.300d.txt'
 		self.add_predefined_sentiment = './data/sentiment_dict.json'
+		self.num_epoches = 12
+		self.learning_rate = 0.0003
+		self.weight_decay = 0
+		self.optimizer = adam
 
 args = params()
