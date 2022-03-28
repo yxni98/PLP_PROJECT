@@ -2,6 +2,7 @@ import os
 import numpy as np
 import pickle
 import yaml
+from xml.etree.ElementTree import parse
 from data_process.utils import *
 
 def generate_sentence(path, lowercase=False):
@@ -33,7 +34,27 @@ def generate_sentence(path, lowercase=False):
     for text in data:
         if not text.split('__split__')[2] in remove_set:
             filtered_data.append(text)
-    return data
+    return filtered_data
+
+def generate_vocab(data, max_size, min_freq):
+    url = re.compile('(<url>.*</url>)')
+    spacy_en = spacy.load('en_core_web_sm')
+    
+    def legal_verify(x):
+        return len(x) >= 1 and not x.isspace()
+
+    def tokenizer(text):
+        tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
+        return list(filter(legal_verify, tokens))
+
+    if max_size == 'None':
+        max_size = None
+    vocab = Vocab()
+    for piece in data:
+        text = piece.split('__split__')[0]
+        text = tokenizer(text)
+        vocab.add_list(text)
+    return vocab.get_vocab(max_size=max_size, min_freq=min_freq)
 
 def data_generation(args):
     raw_train_path = os.path.join(args.data_path, 'raw/train.xml')
@@ -44,7 +65,7 @@ def data_generation(args):
     val_data = generate_sentence(raw_val_path, lowercase=True)
     test_data = generate_sentence(raw_test_path, lowercase=True)
 
-    word2index, index2word = build_vocab(train_data, max_size=args.max_vocab_size, min_freq=args.min_vocab_freq)
+    word2index, index2word = generate_vocab(train_data+val_data+test_data, max_size=args.max_vocab_size, min_freq=args.min_vocab_freq)
     if not os.path.exists(os.path.join(args.data_path, 'processed')):
         os.makedirs(os.path.join(args.data_path, 'processed'))
 
