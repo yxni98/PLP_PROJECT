@@ -6,7 +6,10 @@ import spacy
 import re
 from xml.etree.ElementTree import parse
 from data_utils.vocabulary import Vocabulary
-from data_utils.sentence2embedding import save_category_data, load_glove, load_sentiment_matrix
+from data_utils.sentence2embedding import save_term_data, load_glove, load_sentiment_matrix
+from pytorch_pretrained_bert import BertModel, BertTokenizer
+
+bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 url = re.compile('(<url>.*</url>)')
 spacy_en = spacy.load('en_core_web_sm')
@@ -89,9 +92,9 @@ def data_generation(args):
     if not os.path.exists(os.path.join(args.data_path, 'processed')):
         os.makedirs(os.path.join(args.data_path, 'processed'))
 
-    save_term_data(train_data, word2index, os.path.join(args.data_path, 'processed/train.npz'), tokenizer)
-    save_term_data(val_data, word2index, os.path.join(args.data_path, 'processed/val.npz'), tokenizer)
-    save_term_data(test_data, word2index, os.path.join(args.data_path, 'processed/test.npz'), tokenizer)
+    save_term_data(train_data, word2index, os.path.join(args.data_path, 'processed/train.npz'), tokenizer, bert_tokenizer)
+    save_term_data(val_data, word2index, os.path.join(args.data_path, 'processed/val.npz'), tokenizer, bert_tokenizer)
+    save_term_data(test_data, word2index, os.path.join(args.data_path, 'processed/test.npz'), tokenizer, bert_tokenizer)
 
     glove = load_glove(args.glove_file, len(index2word), word2index)
     sentiment_matrix = load_sentiment_matrix(args.glove_file, args.add_predefined_sentiment)

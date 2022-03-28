@@ -3,11 +3,8 @@ import re
 import json
 import spacy
 import numpy as np
-from pytorch_pretrained_bert import BertModel, BertTokenizer
 
-bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-
-def save_term_data(data, word2index, path, tokenizer):
+def save_term_data(data, word2index, path, tokenizer, bert_tokenizer):
     dirname = os.path.dirname(path)
     if not os.path.exists(dirname):
         os.makedirs(dirname)
