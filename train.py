@@ -43,9 +43,29 @@ def optimizer_selection(args, model):
     optimizer = opt[args.optimizer](model.parameters(), lr=lr, weight_decay=weight_decay)
     return optimizer
 
+def make_term_data():
+    data_path = args.data_path
+    train_path = os.path.join(data_path, 'processed/train.npz')
+    val_path = os.path.join(data_path, 'processed/val.npz')
+    train_data = ABSADataset(train_path, ['context', 'aspect'])
+    val_data = ABSADataset(val_path, ['context', 'aspect'])
+    train_loader = DataLoader(
+        dataset=train_data,
+        batch_size=args.batch_size,
+        shuffle=True,
+        pin_memory=True
+    )
+    val_loader = DataLoader(
+        dataset=val_data,
+        batch_size=args.batch_size,
+        shuffle=False,
+        pin_memory=True
+    )
+    return train_loader, val_loader
+
 def train(args):
-    model = backbone_model(config)
-    train_loader, val_loader = make_term_data(config)
+    model = backbone_model()
+    train_loader, val_loader = make_term_data()
 
     model = model.cuda()
     model_path = os.path.join(args.data_path, 'checkpoints/recurrent_capsnet.pth')
