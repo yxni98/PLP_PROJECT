@@ -8,7 +8,7 @@ from torch import optim
 from torch import nn
 import adabound
 from train.eval import eval
-from model_utils.backbone import model
+from model_utils.backbone import backbone_model
 
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_device
 
@@ -44,7 +44,7 @@ def optimizer_selection(args, model):
     return optimizer
 
 def train(args):
-    model = model(config)
+    model = backbone_model(config)
     train_loader, val_loader = make_term_data(config)
 
     model = model.cuda()
