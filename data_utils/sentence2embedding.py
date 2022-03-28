@@ -4,6 +4,11 @@ import json
 import spacy
 import numpy as np
 
+UNK = '<unk>'
+PAD_INDEX = 0
+ASPECT_INDEX = 2
+
+
 def save_term_data(data, word2index, path, tokenizer, bert_tokenizer):
     dirname = os.path.dirname(path)
     if not os.path.exists(dirname):
