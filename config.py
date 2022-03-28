@@ -12,6 +12,11 @@ class params(object):
 		self.num_epoches = 12
 		self.learning_rate = 0.0003
 		self.weight_decay = 0
+		self.embed_size = 300
+		self.num_layers = 3
+		self.capsule_size = 300
+    	self.bidirectional = True
+    	self.dropout = 0.1
 		self.optimizer = 'adam'
 
 args = params()
