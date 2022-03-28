@@ -5,8 +5,8 @@ import yaml
 import spacy
 import re
 from xml.etree.ElementTree import parse
-from vocabulary import Vocabulary
-from sentence2embedding import save_category_data, load_glove, load_sentiment_matrix
+from data_utils.vocabulary import Vocabulary
+from data_utils.sentence2embedding import save_category_data, load_glove, load_sentiment_matrix
 
 def generate_sentence(path, lowercase=False):
     tree = parse(path)
