@@ -8,6 +8,7 @@ from torch import optim
 from torch import nn
 import adabound
 from train.eval import eval
+from data_utils.create_dataset import create_dataset
 from model_utils.backbone import backbone_model
 
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_device
@@ -47,8 +48,8 @@ def make_term_data():
     data_path = args.data_path
     train_path = os.path.join(data_path, 'processed/train.npz')
     val_path = os.path.join(data_path, 'processed/val.npz')
-    train_data = ABSADataset(train_path, ['context', 'aspect'])
-    val_data = ABSADataset(val_path, ['context', 'aspect'])
+    train_data = create_dataset(train_path, ['context', 'aspect'])
+    val_data = create_dataset(val_path, ['context', 'aspect'])
     train_loader = DataLoader(
         dataset=train_data,
         batch_size=args.batch_size,
