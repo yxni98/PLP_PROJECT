@@ -4,6 +4,7 @@ import numpy as np
 import os
 import yaml
 from config import args
+import torch.nn.functional as F
 from model_utils.capsule_nn import CapsuleNetwork
 
 class RecurrentCapsuleNetwork(CapsuleNetwork):
