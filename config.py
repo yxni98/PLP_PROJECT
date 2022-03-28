@@ -15,9 +15,9 @@ class params(object):
 		self.embed_size = 300
 		self.num_layers = 3
 		self.capsule_size = 300
-    	self.bidirectional = True
-    	self.dropout = 0.1
-    	self.gpu_device = '1'
+		self.bidirectional = True
+		self.dropout = 0.1
+		self.gpu_device = '1'
 		self.optimizer = 'adam'
 
 args = params()
