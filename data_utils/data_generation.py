@@ -2,8 +2,11 @@ import os
 import numpy as np
 import pickle
 import yaml
+import spacy
+import re
 from xml.etree.ElementTree import parse
-from data_process.utils import *
+from vocabulary import Vocabulary
+from sentence2embedding import save_category_data, load_glove, load_sentiment_matrix
 
 def generate_sentence(path, lowercase=False):
     tree = parse(path)
@@ -36,25 +39,42 @@ def generate_sentence(path, lowercase=False):
             filtered_data.append(text)
     return filtered_data
 
+def tokenizer(text):
+    def legal_verify(x):
+        return len(x) >= 1 and not x.isspace()
+    tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
+    return list(filter(legal_verify, tokens))
+
 def generate_vocab(data, max_size, min_freq):
     url = re.compile('(<url>.*</url>)')
     spacy_en = spacy.load('en_core_web_sm')
-    
-    def legal_verify(x):
-        return len(x) >= 1 and not x.isspace()
-
-    def tokenizer(text):
-        tokens = [tok.text for tok in spacy_en.tokenizer(url.sub('@URL@', text))]
-        return list(filter(legal_verify, tokens))
 
     if max_size == 'None':
         max_size = None
-    vocab = Vocab()
+    vocab = Vocabulary()
     for piece in data:
         text = piece.split('__split__')[0]
         text = tokenizer(text)
         vocab.add_list(text)
     return vocab.get_vocab(max_size=max_size, min_freq=min_freq)
+
+def analyze_term(data):
+    num = len(data)
+    sentence_lens = []
+    aspect_lens = []
+    log = {'total': num}
+    for piece in data:
+        text, term, polarity, _, _ = piece.split('__split__')
+        sentence_lens.append(len(tokenizer(text)))
+        aspect_lens.append(len(tokenizer(term)))
+        if not polarity in log:
+            log[polarity] = 0
+        log[polarity] += 1
+    log['sentence_max_len'] = max(sentence_lens)
+    log['sentence_avg_len'] = sum(sentence_lens) / len(sentence_lens)
+    log['aspect_max_len'] = max(aspect_lens)
+    log['aspect_avg_len'] = sum(aspect_lens) / len(aspect_lens)
+    return log
 
 def data_generation(args):
     raw_train_path = os.path.join(args.data_path, 'raw/train.xml')
