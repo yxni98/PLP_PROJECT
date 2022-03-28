@@ -29,5 +29,3 @@ def test():
     test_loader = make_term_test_data()
     test_accuracy = eval(model, test_loader)
     print('test:\taccuracy: %.4f' % (test_accuracy))
-
-test()

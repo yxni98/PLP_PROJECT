@@ -65,7 +65,7 @@ def make_term_data():
     )
     return train_loader, val_loader
 
-def train(args):
+def train():
     model = backbone_model()
     train_loader, val_loader = make_term_data()
 
@@ -120,5 +120,3 @@ def train(args):
         end = time.time()
         print('time: %.4fs' % (end - start))
     print('max_val_accuracy:', max_val_accuracy)
-
-train(args)
