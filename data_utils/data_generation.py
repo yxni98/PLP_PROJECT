@@ -4,19 +4,46 @@ import pickle
 import yaml
 from data_process.utils import *
 
+def generate_sentence(path, lowercase=False):
+    tree = parse(path)
+    sentences = tree.getroot()
+    data = []
+    split_char = '__split__'
+    for sentence in sentences:
+        text = sentence.find('text')
+        if text is None:
+            continue
+        text = text.text
+        if lowercase:
+            text = text.lower()
+        aspectTerms = sentence.find('aspectTerms')
+        if aspectTerms is None:
+            continue
+        for aspectTerm in aspectTerms:
+            term = aspectTerm.get('term')
+            if lowercase:
+                term = term.lower()
+            polarity = aspectTerm.get('polarity')
+            start = aspectTerm.get('from')
+            end = aspectTerm.get('to')
+            piece = text + split_char + term + split_char + polarity + split_char + start + split_char + end
+            data.append(piece)
+    remove_set = set(['conflict'])
+    filtered_data = []
+    for text in data:
+        if not text.split('__split__')[2] in remove_set:
+            filtered_data.append(text)
+    return data
+
 def data_generation(args):
     raw_train_path = os.path.join(args.data_path, 'raw/train.xml')
     raw_val_path = os.path.join(args.data_path, 'raw/val.xml')
     raw_test_path = os.path.join(args.data_path, 'raw/test.xml')
 
-    train_data = parse_sentence_term(raw_train_path, lowercase=True)
-    val_data = parse_sentence_term(raw_val_path, lowercase=True)
-    test_data = parse_sentence_term(raw_test_path, lowercase=True)
+    train_data = generate_sentence(raw_train_path, lowercase=True)
+    val_data = generate_sentence(raw_val_path, lowercase=True)
+    test_data = generate_sentence(raw_test_path, lowercase=True)
 
-    remove_list = ['conflict']
-    train_data = category_filter(train_data, remove_list)
-    val_data = category_filter(val_data, remove_list)
-    test_data = category_filter(test_data, remove_list)
     word2index, index2word = build_vocab(train_data, max_size=args.max_vocab_size, min_freq=args.min_vocab_freq)
     if not os.path.exists(os.path.join(args.data_path, 'processed')):
         os.makedirs(os.path.join(args.data_path, 'processed'))
