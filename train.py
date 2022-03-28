@@ -1,40 +1,86 @@
-import torch
-from torch import nn
-from torch import optim
-from train import make_aspect_term_model, make_aspect_category_model
-from train.make_data import make_term_data, make_category_data
-from train.make_optimizer import make_optimizer
-from train.eval import eval
+import yaml
 import os
 import time
 import pickle
-from src.module.utils.loss import CapsuleLoss
+from config import args
+import torch
+from torch import optim
+from torch import nn
+import adabound
+from test_utils.eval import eval
+from torch.utils.data import DataLoader
+from data_utils.create_dataset import create_dataset
+from model_utils.backbone import backbone_model
 
-# torch.backends.cudnn.benchmark = True
-# torch.backends.cudnn.deterministic = True
+os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_device
 
-def train(config):
-    mode = config['mode']
-    if mode == 'term':
-        model = make_aspect_term_model.make_model(config)
-        train_loader, val_loader = make_term_data(config)
-    else:
-        model = make_aspect_category_model.make_model(config)
-        train_loader, val_loader = make_category_data(config)
+class capsule_nn_loss(nn.Module):
+    def __init__(self, smooth=0.1, lamda=0.6):
+        super(capsule_nn_loss, self).__init__()
+        self.smooth = smooth
+        self.lamda = lamda
+
+    def forward(self, input, target):
+        one_hot = torch.zeros_like(input).to(input.device)
+        one_hot = one_hot.scatter(1, target.unsqueeze(-1), 1)
+        a = torch.max(torch.zeros_like(input).to(input.device), 1 - self.smooth - input)
+        b = torch.max(torch.zeros_like(input).to(input.device), input - self.smooth)
+        loss = one_hot * a * a + self.lamda * (1 - one_hot) * b * b
+        loss = loss.sum(dim=1, keepdim=False)
+        return loss.mean()
+
+def optimizer_selection(args, model):
+    lr = args.learning_rate
+    weight_decay = args.weight_decay
+    opt = {
+        'sgd': optim.SGD,
+        'adadelta': optim.Adadelta,
+        'adam': optim.Adam,
+        'adamax': optim.Adamax,
+        'adagrad': optim.Adagrad,
+        'asgd': optim.ASGD,
+        'rmsprop': optim.RMSprop,
+        'adabound': adabound.AdaBound
+    }
+    optimizer = opt[args.optimizer](model.parameters(), lr=lr, weight_decay=weight_decay)
+    return optimizer
+
+def make_term_data():
+    data_path = args.data_path
+    train_path = os.path.join(data_path, 'processed/train.npz')
+    val_path = os.path.join(data_path, 'processed/val.npz')
+    train_data = create_dataset(train_path, ['context', 'aspect'])
+    val_data = create_dataset(val_path, ['context', 'aspect'])
+    train_loader = DataLoader(
+        dataset=train_data,
+        batch_size=args.batch_size,
+        shuffle=True,
+        pin_memory=True
+    )
+    val_loader = DataLoader(
+        dataset=val_data,
+        batch_size=args.batch_size,
+        shuffle=False,
+        pin_memory=True
+    )
+    return train_loader, val_loader
+
+def train():
+    model = backbone_model()
+    train_loader, val_loader = make_term_data()
+
     model = model.cuda()
-    base_path = config['base_path']
-    model_path = os.path.join(base_path, 'checkpoints/%s.pth' % config['aspect_' + mode + '_model']['type'])
+    model_path = os.path.join(args.data_path, 'checkpoints/recurrent_capsnet.pth')
     if not os.path.exists(os.path.dirname(model_path)):
         os.makedirs(os.path.dirname(model_path))
-    with open(os.path.join(base_path, 'processed/index2word.pickle'), 'rb') as handle:
+    with open(os.path.join(args.data_path, 'processed/index2word.pickle'), 'rb') as handle:
         index2word = pickle.load(handle)
-    criterion = CapsuleLoss()
-    optimizer = make_optimizer(config, model)
+    criterion = capsule_nn_loss()
+    optimizer = optimizer_selection(args, model)
     max_val_accuracy = 0
     min_val_loss = 100
     global_step = 0
-    config = config['aspect_' + mode + '_model'][config['aspect_' + mode + '_model']['type']]
-    for epoch in range(config['num_epoches']):
+    for epoch in range(args.num_epoches):
         total_loss = 0
         total_samples = 0
         correct_samples = 0
