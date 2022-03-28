@@ -1,4 +1,5 @@
 import os
+import torch
 from train.test import test
 from config import args
 from model_utils.backbone import backbone_model
