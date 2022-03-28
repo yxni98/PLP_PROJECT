@@ -12,6 +12,6 @@ class params(object):
 		self.num_epoches = 12
 		self.learning_rate = 0.0003
 		self.weight_decay = 0
-		self.optimizer = adam
+		self.optimizer = 'adam'
 
 args = params()
