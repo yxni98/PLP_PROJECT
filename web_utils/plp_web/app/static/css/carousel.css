@@ -1,0 +1,74 @@
+#main{
+ width: 655px;
+ height: 361px;
+ position: relative;
+}
+#picture{
+ width:100%;
+ height: 100%;
+}
+#picture img{
+ 
+ width:100%;
+ height: 100%;
+ display: none;
+}
+
+#picture img:nth-child(1){
+ display: inline-block;
+}
+
+
+/* 设置圆点的样式 */
+#dot span{
+ display: inline-block;
+ width:25px;
+ height: 25px;
+ border-radius: 50%;
+ background-color: gray;
+ margin-left: 10px;
+ opacity: 0.6
+}
+
+
+#dot{
+ position: absolute;
+ right: 40px;
+ bottom: 30px;
+}
+
+
+/* 设置页面刚加载的圆点初始状态 1 第一个圆点放大1.2倍 2、颜色变成蓝色
+ */
+ #dot :nth-of-type(1){
+ transform: scale(1.2);
+ background-color: blue;
+ }
+
+
+ .left ,.right{
+ 
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ font-size: 30px;
+ color: white;
+ position: absolute;
+ bottom: calc((100% - 40px)/2);
+ text-align: center;
+ }
+
+
+ .left{
+ left: 15px;
+ }
+ .right{
+ right: 15px;
+ }
+
+
+ .left:hover ,.right:hover{
+ background-color: white;
+ color:red;
+ }
+

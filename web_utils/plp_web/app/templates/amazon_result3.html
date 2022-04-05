@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="/static/css/carousel.css" rel="external nofollow" >
+ <title>Analysis Result</title>
+ <script src="/static/js/jquery.js"></script>
+ <script>
+	$(document).ready(function(){
+		var product_name = "{{ product_name|safe }}";
+		$('body').append("<div style=\"font-size:30px;width:100%;text-align:center;margin-top:10%;\">"+product_name+"</div>");
+	});
+ </script>
+</head>
+<body>
+
+<style type="text/css">
+    .search_button{
+        width: 50%;
+        left: 25%;
+        height: 60px;
+        font-size: 40px;
+        background-color: blue;
+        color: white;
+    }
+</style>
+
+ <section id="main" style="position:absolute; top:20%; width:100%">
+ <div id="picture"></div>
+ <!-- 添加图中按钮 图片轮播在js中大致成型后再写最好-->
+ <div id="dot">
+ <span></span>
+ <span></span>
+ <span></span>
+ </div>
+
+ <!-- 添加切换按钮 -->
+ <div id="an">
+  <div class="left">&lt;</div>
+  <div class="right">&gt;</div>
+ </div>
+ </section>
+
+ <script src="/static/js/carousel3.js"></script>
+
+ <form action="/index/" method="get" style="position:absolute; bottom:20px; width:100%; text-align:center;">
+    <input type="submit" value="Return" class="search_button">
+</form>
+</body>

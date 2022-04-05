@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no" />
+<title>Analyse Your Product</title> 
+</head>
+<body>
+
+<style type="text/css">
+    .divForm{
+        position: absolute;/*绝对定位*/
+        width: 80%;
+        height: 60%;
+        border: none;
+
+        text-align: center;/*(让div中的内容居中)*/
+        top: 10%;
+        left: 10%;
+
+        font-size: 40px;
+    }
+    .search_frame{
+        width: 60%;
+        left: 20%;
+        height: 60px;
+        margin-top: 45%;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .search_button{
+        width: 50%;
+        left: 25%;
+        height: 60px;
+        font-size: 40px;
+        background-color: blue;
+        color: white;
+    }
+    .select_platform{
+        height: 60px;
+        font-size: 20px;
+        width: 35%;
+    }
+    option{
+        width: 10px;
+    }
+</style>
+ 
+<div class="divForm">
+    <form action="/analyse_result/" method="get">
+        <input type="text" name="product" class="search_frame"> <br> <br>
+
+        Source: &nbsp;
+        <input id="type" type="text" list="typelist" placeholder="select" class="select_platform" name="platform">
+        <datalist id="typelist">
+        　　<option>Amazon</option>
+        　　<option>Reddit</option>
+        </datalist>
+        <br> <br>
+         
+        <input type="submit" value="Analyse" class="search_button">
+    </form>
+</div>
+    
+</body>
+</html>
