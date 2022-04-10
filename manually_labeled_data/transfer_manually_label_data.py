@@ -16,7 +16,7 @@ def construct_data(read_path, output_path, platform):
 	text2terms = {}
 	if platform == 'amazon':
 		for i in range(348):
-			polarity = str(sheet.cell(i,2).value)
+			polarity = polarity_dict[str(int(float(str(sheet.cell(i,2).value))))]
 			original_text = str(sheet.cell(i,3).value)
 			term = str(sheet.cell(i,5).value)
 			from_index = original_text.index(term)
@@ -48,6 +48,7 @@ def construct_data(read_path, output_path, platform):
 			aspect_term = '\t\t\t<aspectTerm from="%s" polarity="%s" term="%s" to="%s"/>\n' % (term_unit[0], term_unit[1], term_unit[2], term_unit[3])
 			aspect_terms += aspect_term
 		input_sentence = '\t<sentence>\n\t\t<text>%s</text>\n\t\t<aspectTerms>\n%s\t\t</aspectTerms>\n\t</sentence>\n' % (text, aspect_terms)
+		input_sentence = input_sentence.replace('&', ' ')
 		all_input_sentences.append(input_sentence)
 
 	random.shuffle(all_input_sentences)

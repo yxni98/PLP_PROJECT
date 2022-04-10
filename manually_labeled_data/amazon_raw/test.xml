@@ -1,177 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sentences>
 	<sentence>
-		<text>Easy to read screen in a small light package. Excellent battery life and even fits into my work pockets.</text>
+		<text>Out of the box there really is nothing to do but plug it in to the USB drive and you're ready to go. You get a pop up reminder asking if you want to use the drive as a back up. If you select yes or no that will be the last time you see it. If you say "decide later" it will come up each time you plug it in to the USB drive.</text>
 		<aspectTerms>
-			<aspectTerm from="56" polarity="1.0" term="battery" to="63"/>
+			<aspectTerm from="67" polarity="neutral" term="USB drive" to="76"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Overall good product, does what is advertised, comfortable to use.</text>
+		<text>I brought this for my granddaughter and she loves it. She is able to download all of her games and apps that she uses to have on the iPad.</text>
 		<aspectTerms>
-			<aspectTerm from="13" polarity="1.0" term="product" to="20"/>
+			<aspectTerm from="89" polarity="positive" term="games " to="95"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>I bought this for my grand daughter when she comes over to visit. I set it up with her as the user, entered her age and name and now Amazon makes sure that she only accesses sites and content that are appropriate to her age. Simple to do and she loves the capabilities. I also bought and installed a 66gig SD card which gives this little tablet plenty of storage. For the price I think this tablet is best one out there. You can spend hundreds of dollars more for additional speed and capacity but when it comes to the basics this tablets does everything that most people will ever need at a fraction of the cost.</text>
+		<text>My daughter picked this tablet after her HD Fire battery would no longer work. The insurance kicked in and she picked this one instead of the HD. She wanted more memory for her music does not use it to watch movies really. She loves the blue color and is working just perfect for her.</text>
 		<aspectTerms>
-			<aspectTerm from="372" polarity="1.0" term="price" to="377"/>
+			<aspectTerm from="49" polarity="neutral" term="battery" to="56"/>
+			<aspectTerm from="162" polarity="neutral" term="memory" to="168"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Works great.</text>
+		<text>Disappointed to realize there is not a light for night reading. Size and weight is great.</text>
 		<aspectTerms>
-			<aspectTerm from="0" polarity="1.0" term="Works" to="5"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Great tablet for reading and also surfacing the web, along with your favorite social media apps!</text>
-		<aspectTerms>
-			<aspectTerm from="17" polarity="1.0" term="reading" to="24"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>I like to read and the kindle is great. It's easy to carry with you. You can buy affordable books. I also like the fact you can access the internet.</text>
-		<aspectTerms>
-			<aspectTerm from="10" polarity="1.0" term="read" to="14"/>
-			<aspectTerm from="53" polarity="1.0" term="carry" to="58"/>
-			<aspectTerm from="139" polarity="1.0" term="internet" to="147"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Amazon echo is an amazing device, and turns my house into a smart home as I use my voice for various commands like switching on lights, controlling window blinds, just to name a few. Buying this device is a no brainer!</text>
-		<aspectTerms>
-			<aspectTerm from="26" polarity="1.0" term="device" to="32"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>It's an OK product. Nothing special. Not on the cutting edge of technology</text>
-		<aspectTerms>
-			<aspectTerm from="11" polarity="0.0" term="product" to="18"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>We had previously owned Kindle paperwhite version 1 and this is a substantial improvement. The new screen is much brighter and the response is quicker .</text>
-		<aspectTerms>
-			<aspectTerm from="99" polarity="1.0" term="screen " to="106"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Very good product. Working perfectly. Nice design!</text>
-		<aspectTerms>
-			<aspectTerm from="10" polarity="1.0" term="product" to="17"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Returned it. it was a poor reader and clearly would not last..</text>
-		<aspectTerms>
-			<aspectTerm from="27" polarity="-1.0" term="reader" to="33"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>This kindle is a great product. I really enjoy it.</text>
-		<aspectTerms>
-			<aspectTerm from="23" polarity="1.0" term="product" to="30"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Great for e-reading on the go, nice and light weight, and for the price point given, definitely worth the purchase.</text>
-		<aspectTerms>
-			<aspectTerm from="10" polarity="1.0" term="e-reading" to="19"/>
-			<aspectTerm from="46" polarity="1.0" term="weight" to="52"/>
-			<aspectTerm from="66" polarity="1.0" term="price" to="71"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Bought this for a family member to get her school books on as well as entertainment. She loved it and didn't put it down.</text>
-		<aspectTerms>
-			<aspectTerm from="18" polarity="1.0" term="family member" to="31"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Christmas gift.</text>
-		<aspectTerms>
-			<aspectTerm from="0" polarity="1.0" term="Christmas gift." to="15"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>great if you want to read, watch a show, catch up on email, or casually browse the internet.</text>
-		<aspectTerms>
-			<aspectTerm from="21" polarity="1.0" term="read" to="25"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>i really like the voyage, it looks great, and worth the money.</text>
-		<aspectTerms>
-			<aspectTerm from="29" polarity="1.0" term="looks" to="34"/>
-			<aspectTerm from="46" polarity="1.0" term="worth" to="51"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Amazon fire is a good tablet if you like e-books. It's also nice to get a six-month subscription to the Washington Post. Their claim to have 16 gigabytes of storage is misleading because it only gives you 7 and then they want to charge you the same amount of money that you paid for the tablet for unlimited storage. Another problem is that you can't flag something as being inappropriate like you can on Samsung Galaxy tablets.</text>
-		<aspectTerms>
-			<aspectTerm from="351" polarity="0.0" term="flag" to="355"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>this Kindle is much faster and has significantly brighter screen than my first generation product. Wish I had purchased it sooner!</text>
-		<aspectTerms>
-			<aspectTerm from="58" polarity="1.0" term="screen" to="64"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>best choice under 100$ in marketamazon is the best!!!</text>
-		<aspectTerms>
-			<aspectTerm from="5" polarity="1.0" term="choice" to="11"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>My wife and I really like this device. We also bought the smaller version to put in our bedroom to play music and nature sounds to go to sleep to. We don't really do a lot with the USB/BlueTooth yet though.</text>
-		<aspectTerms>
-			<aspectTerm from="104" polarity="1.0" term="music" to="109"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>This was purchased as a Christmas present for my aunt who lives with us. For the price, I thought it would be a good option for her since she doesn't want to drop the cash on an iPad.For comparison, the closest thing I have is an 8" insignia tablet with similar screen resolution, storage, and features that was released at the same time. The Fire tablet impresses me! It is more responsive than the existing android tablet I have.This tablet runs FireOS which is Amazon's customized version of Android. Typically I do not like custom Android, preferring to have as close to a vanilla system as possible. I am not bothered by that with the Fire. If you need them the parental controls are second to none! The Amazon app store is extensive, although not as extensive as the Google Play store. Still you should be able to find pretty much everything you need there.This is not a flagship device, but performs incredibly for the price. I will most likely be purchasing one soon for myself.</text>
-		<aspectTerms>
-			<aspectTerm from="24" polarity="1.0" term="Christmas present" to="41"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>small and powerful... great adult toy for a reader</text>
-		<aspectTerms>
-			<aspectTerm from="44" polarity="1.0" term="reader" to="50"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>I bought this as a gift for my mother and she loved it.</text>
-		<aspectTerms>
-			<aspectTerm from="19" polarity="1.0" term="gift" to="23"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Great buy, do a lot of reading and he no glear screen is awesome while in the sun.</text>
-		<aspectTerms>
-			<aspectTerm from="47" polarity="1.0" term="screen" to="53"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>This was gift for my step son. It is easy to use and set up.</text>
-		<aspectTerms>
-			<aspectTerm from="9" polarity="0.0" term="gift" to="13"/>
-			<aspectTerm from="45" polarity="1.0" term="use" to="48"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>This is just perfect for my 8 year old nothing fancy, parental control is a bit confusing but i got it now, the case is perfect to keep it.safe just get a sd card for extra memory</text>
-		<aspectTerms>
-			<aspectTerm from="112" polarity="1.0" term="case" to="116"/>
+			<aspectTerm from="39" polarity="negative" term="light" to="44"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
 		<text>I love my Kindle. I won't be without one. I've even bought an extra one, just in case. I believe it's the best tablet on the market.</text>
 		<aspectTerms>
-			<aspectTerm from="111" polarity="1.0" term="tablet" to="117"/>
+			<aspectTerm from="111" polarity="positive" term="tablet" to="117"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>The Kindle Voyager did not come with a charger so I'm glad I purchased this - although the Kidle Voyager does not need charging up as often because it stays charged for a long time. Mae Ogino</text>
+		<aspectTerms>
+			<aspectTerm from="39" polarity="positive" term="charger" to="46"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Didn't want to go to the sites amazon wanted me to.</text>
+		<aspectTerms>
+			<aspectTerm from="25" polarity="negative" term="sites amazon" to="37"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>If you want to read anytime where there's a light source this is thereafter for you. If you do a lot of night reading the paper white is cheaper considering the add kns you will have to buy for the base model.</text>
+		<aspectTerms>
+			<aspectTerm from="110" polarity="positive" term="reading" to="117"/>
+			<aspectTerm from="104" polarity="negative" term="night reading" to="117"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I am so pleased with my Echo, I bought another for my granddaughter. As a youngster, she loves the "on demand" music.</text>
+		<aspectTerms>
+			<aspectTerm from="111" polarity="positive" term="music" to="116"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This was a request from our 7 yr old granddaugter who had always asked her older sister if she could share hers due to we bought this same tablet/size a few yrs earlier. Loved the security/parental control options.Starfall a favorite educational app were told is a must have. Really enjoy Pics/Viber due to their in a different state. Also some games on a time limit. Size and resolution are perfect.</text>
+		<aspectTerms>
+			<aspectTerm from="189" polarity="positive" term="parental control" to="205"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I bought this for my grand daughter when she comes over to visit. I set it up with her as the user, entered her age and name and now Amazon makes sure that she only accesses sites and content that are appropriate to her age. Simple to do and she loves the capabilities. I also bought and installed a 65gig SD card which gives this little tablet plenty of storage. For the price I think this tablet is best one out there. You can spend hundreds of dollars more for additional speed and capacity but when it comes to the basics this tablets does everything that most people will ever need at a fraction of the cost.</text>
+		<aspectTerms>
+			<aspectTerm from="300" polarity="positive" term="65gig SD card" to="313"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I bought this tablet for my son. He damaged the previous one but it was good for his purpose. He loves to play the Minecraft app and can read a book with ease. I don't have a tablet for myself. If I did, I would get the Fire. All I would really need it for would be to surf the Web and use the apps. For the price, u can't go wrong.</text>
+		<aspectTerms>
+			<aspectTerm from="286" polarity="neutral" term="use" to="289"/>
+			<aspectTerm from="308" polarity="positive" term="price" to="313"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Incredibly fast tablet charger. Works as advertised without any issues.</text>
+		<aspectTerms>
+			<aspectTerm from="23" polarity="positive" term="charger" to="30"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I do not like the fact that every thing is in pictures instead of words. On my old paper white I had a list of unread books, now I have pictures. I don't read pictures. If there is a way to make it into a list, I have yet to find it. I thought the that reading is the point.</text>
+		<aspectTerms>
+			<aspectTerm from="46" polarity="negative" term="pictures" to="54"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I like this e reader, but wish the screen were higher resolution. It requires decent light to look good, but it is easy on my eyes. The screen updates involve flashing the whole screen, which I noticed less over time. The advertised month long battery life is just standby time, it lasts much less if you are downloading and reading books.</text>
+		<aspectTerms>
+			<aspectTerm from="35" polarity="neutral" term="screen" to="41"/>
+			<aspectTerm from="85" polarity="neutral" term="light" to="90"/>
+			<aspectTerm from="244" polarity="neutral" term="battery" to="251"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I use it daily to check emails, social media and recipes.</text>
+		<aspectTerms>
+			<aspectTerm from="2" polarity="neutral" term="use" to="5"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>It has what i wanted click to turn page and that is the only reason i paid that price for it. there is nothing special about it. i thhought that the battery would last longer and as an avid reader it doesn't last long enough.</text>
+		<aspectTerms>
+			<aspectTerm from="30" polarity="positive" term="turn page" to="39"/>
+			<aspectTerm from="149" polarity="negative" term="battery" to="156"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I can do a lot of things on my Kindle I used to rely on the computer for.</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="positive" term="Kindle" to="37"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This amazon fire 8 inch tablet is the perfect size. I purchased it for my husband so that he has a bigger screen than just his phone. He had gotten me one a few years ago so I knew it would be a good purchase.</text>
+		<aspectTerms>
+			<aspectTerm from="46" polarity="positive" term="size" to="50"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My daughter loves her tablet because she can carry it to all places</text>
+		<aspectTerms>
+			<aspectTerm from="22" polarity="positive" term="tablet" to="28"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Great for kids. Simple and inexpensive. 16G must better than 8G</text>
+		<aspectTerms>
+			<aspectTerm from="10" polarity="positive" term="kids" to="14"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Simple to use. Easy to sit up. And a lot of fun for entertaining guests and kids.</text>
+		<aspectTerms>
+			<aspectTerm from="44" polarity="positive" term="fun" to="47"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Great buy, do a lot of reading and he no glear screen is awesome while in the sun.</text>
+		<aspectTerms>
+			<aspectTerm from="47" polarity="positive" term="screen" to="53"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I am a big fan of e-readers. I prefer the e-ink screens over tablet screen when reading books. I decided to pick up the new Kindle Voyage. Here are my thoughts.First, the Kindle is much sleeker and lighter than the Paperwhite model. It's very easy to hold for a long length of time without getting tired.Secondly, the addition of the page turn buttons is a welcomed addition. The buttons make it so easy to hold the Kindle with one hand and turn pages.Lastly the screen. I marked off a star because I had to return my first Voyage directly to Amazon because the top half of the screen had a yellow tint to it that was very distracting while reading. The replacement Kindle Voyage that I received had a perfect screen and the 300 ppi looks amazing. That being said, Amazon needs to really focus on quality control because I've read that the yellow tint on the screen is a common issue. If you're spending $200 for an e-reader, then the screen should be perfect. Especially since this is the 3rd generation of the lighted screens for the e-readers.If you're an avid reader, then the Kindle Voyage would be a worthy upgrade to make. If you're a casual reader who has a Paperwhite, you're probably okay with what you have.</text>
+		<aspectTerms>
+			<aspectTerm from="11" polarity="positive" term="fan of e-readers" to="27"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>If you already have a Paperwhite then there is no need to upgrade. But if you are in the market this has an excellent display and quick page turns. The reason to buy a dedicated e-reader is the 3 week long battery life. Love it</text>
+		<aspectTerms>
+			<aspectTerm from="58" polarity="neutral" term="upgrade" to="65"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I am a big fan of e-readers. I prefer the e-ink screens over tablet screen when reading books. I decided to pick up the new Kindle Voyage. Here are my thoughts.First, the Kindle is much sleeker and lighter than the Paperwhite model. It's very easy to hold for a long length of time without getting tired.Secondly, the addition of the page turn buttons is a welcomed addition. The buttons make it so easy to hold the Kindle with one hand and turn pages.Lastly the screen. I marked off a star because I had to return my first Voyage directly to Amazon because the top half of the screen had a yellow tint to it that was very distracting while reading. The replacement Kindle Voyage that I received had a perfect screen and the 300 ppi looks amazing. That being said, Amazon needs to really focus on quality control because I've read that the yellow tint on the screen is a common issue. If you're spending $200 for an e-reader, then the screen should be perfect. Especially since this is the 6rd generation of the lighted screens for the e-readers.If you're an avid reader, then the Kindle Voyage would be a worthy upgrade to make. If you're a casual reader who has a Paperwhite, you're probably okay with what you have.</text>
+		<aspectTerms>
+			<aspectTerm from="48" polarity="positive" term="screen" to="54"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My husband bought a Paperwhite for himself a few months ago but at the time I turned down his offer to buy one for me as well thinking I would continue to read on my tablet. However when we spent time reading and relaxing in the yard I became jealous that he could read his scree so easily while I struggled to see mine at all. In the end I caved and let him buy one for me as well and I love it. It's neat and small and light weight and easy to hold and the battery lasts more than a week.</text>
+		<aspectTerms>
+			<aspectTerm from="155" polarity="neutral" term="read" to="159"/>
+			<aspectTerm from="427" polarity="positive" term="weight" to="433"/>
+			<aspectTerm from="459" polarity="positive" term="battery" to="466"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This newer kindle reader is great. It's lightweight, easy to hold and the battery last long. I will definitely recommend it to friends. The white color is especially classy looking.</text>
+		<aspectTerms>
+			<aspectTerm from="40" polarity="positive" term="lightweight" to="51"/>
+			<aspectTerm from="74" polarity="positive" term="battery" to="81"/>
 		</aspectTerms>
 	</sentence>
 </sentences>
