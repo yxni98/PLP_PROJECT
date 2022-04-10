@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sentences>
+	<sentence>
+		<text>I enjoy the Kindle very much, as it is so convenient and easy to use. I like the white background, easy to see.</text>
+		<aspectTerms>
+			<aspectTerm from="65" polarity="1.0" term="use" to="68"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I am a big fan of e-readers. I prefer the e-ink screens over tablet screen when reading books. I decided to pick up the new Kindle Voyage. Here are my thoughts.First, the Kindle is much sleeker and lighter than the Paperwhite model. It's very easy to hold for a long length of time without getting tired.Secondly, the addition of the page turn buttons is a welcomed addition. The buttons make it so easy to hold the Kindle with one hand and turn pages.Lastly the screen. I marked off a star because I had to return my first Voyage directly to Amazon because the top half of the screen had a yellow tint to it that was very distracting while reading. The replacement Kindle Voyage that I received had a perfect screen and the 300 ppi looks amazing. That being said, Amazon needs to really focus on quality control because I've read that the yellow tint on the screen is a common issue. If you're spending $200 for an e-reader, then the screen should be perfect. Especially since this is the 4rd generation of the lighted screens for the e-readers.If you're an avid reader, then the Kindle Voyage would be a worthy upgrade to make. If you're a casual reader who has a Paperwhite, you're probably okay with what you have.</text>
+		<aspectTerms>
+			<aspectTerm from="251" polarity="1.0" term="hold" to="255"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Great tablet for reading and also surfacing the web, along with your favorite social media apps!</text>
+		<aspectTerms>
+			<aspectTerm from="17" polarity="1.0" term="reading" to="24"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I am a senior citizen who is not that great on computers or tablets, therefore, I need a book to help me understand how to do things on the tablet. I could not believe that this tablet did not come with an instruction booklet. It's taking me some time but I am learning how to get around this thing. That's why I can only give this product 4 stars instead of 5.</text>
+		<aspectTerms>
+			<aspectTerm from="206" polarity="0.0" term="instruction booklet" to="225"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This is the very best devise to read from. The print is one hundred percent book like. The device is light, elegant and a pleasure to use. There is nothing that comes close.</text>
+		<aspectTerms>
+			<aspectTerm from="32" polarity="1.0" term="read" to="36"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>IT IS A VERT GOOD ITEM</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="1.0" term="ITEM" to="22"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My son is 6 and loves it. It's very easy to use...</text>
+		<aspectTerms>
+			<aspectTerm from="44" polarity="1.0" term="use" to="47"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Out of the box there really is nothing to do but plug it in to the USB drive and you're ready to go. You get a pop up reminder asking if you want to use the drive as a back up. If you select yes or no that will be the last time you see it. If you say "decide later" it will come up each time you plug it in to the USB drive.</text>
+		<aspectTerms>
+			<aspectTerm from="67" polarity="0.0" term="USB drive" to="76"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Great for kids. Simple and inexpensive. 16G must better than 8G</text>
+		<aspectTerms>
+			<aspectTerm from="10" polarity="1.0" term="kids" to="14"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Purchased this for my son. Has room to upgrade memory to allow more books & games. But the speakers could be better or located in a better position.</text>
+		<aspectTerms>
+			<aspectTerm from="47" polarity="0.0" term="memory" to="53"/>
+			<aspectTerm from="91" polarity="0.0" term="speakers" to="99"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>i really like the voyage, it looks great, and worth the money.</text>
+		<aspectTerms>
+			<aspectTerm from="29" polarity="1.0" term="looks" to="34"/>
+			<aspectTerm from="46" polarity="1.0" term="worth" to="51"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This is just perfect for my 7 year old nothing fancy, parental control is a bit confusing but i got it now, the case is perfect to keep it.safe just get a sd card for extra memory</text>
+		<aspectTerms>
+			<aspectTerm from="63" polarity="0.0" term="control" to="70"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>The kindle is the best ebook reader. I love it and use it daily.</text>
+		<aspectTerms>
+			<aspectTerm from="29" polarity="1.0" term="reader" to="35"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>It was a perfect gift for my godson. He loved it! Definitely would recommend this product.</text>
+		<aspectTerms>
+			<aspectTerm from="17" polarity="1.0" term="gift" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>i Bought this around black friday for $60 hoping it would be awesome... it failed so hard i tried multiple different micro SD cards none of which were recognized and YES i formated them with every format i could think of ... Fat32, NTFS, Fat, Xfat... i even tried to have the tablet do it... didnt work... to make matters worse half the apps i wanted to use werent in the app store and i came to find out that it isnt linked to the normal google play store this tablet has its own app store which is missing many common apps... the main reason i bought this was to play clash of clans and i cant because it wasnt on the app store... i tried to also use aftermarket play stores to play COC but it didnt work... launched and played 1 time but didnt work or update after that... needless to say i returned it and bought a $250 samsung galaxy tab A 10.1 (2016 version) with S-pen and its WAYYYYY better... bottom line you get what you pay for... also hint the s-pen version has an extra 1 GB of ram over the non pen version... so you should get that if you can afford the extra $51...</text>
+		<aspectTerms>
+			<aspectTerm from="337" polarity="-1.0" term="apps" to="341"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Excellent product. Easy to use, large screen makes watching movies and reading easier.</text>
+		<aspectTerms>
+			<aspectTerm from="38" polarity="1.0" term="screen" to="44"/>
+			<aspectTerm from="27" polarity="1.0" term="use" to="30"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This was the perfect gift for high school graduates. I went to get the 8GB but for $10 more I could get them both more storage. Let me tell you, they loved the gift and thought it was the best of all time. I've decided this is the gift I will buy for all birthdays and holidays this year!</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="1.0" term="gift" to="25"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I gave this as a Christmas gift to my inlaws, husband and uncle. They loved it and how easy they are to use with fantastic features!</text>
+		<aspectTerms>
+			<aspectTerm from="17" polarity="1.0" term="Christmas gift" to="31"/>
+			<aspectTerm from="104" polarity="1.0" term="use" to="107"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>If you plug the prongy side of the adapter into the wall, and then plug the big end of the USB cable into the non-prongy side, and then plug the little end of the USB cable into your Kindle, it makes books magically appear on the screen. Use your eyes to read the words, and your eyes will transmit the information into your brain.</text>
+		<aspectTerms>
+			<aspectTerm from="91" polarity="1.0" term="USB cable" to="100"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>If you already have a Paperwhite then there is no need to upgrade. But if you are in the market this has an excellent display and quick page turns. The reason to buy a dedicated e-reader is the 3 week long battery life. Love it</text>
+		<aspectTerms>
+			<aspectTerm from="58" polarity="0.0" term="upgrade" to="65"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I bought this for my wife as a gift to replace her older fire. Absolutely loves it. Has all of the features she needs. I don't think there is a better tablet on the market and the value is incredible.</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="1.0" term="gift" to="35"/>
+			<aspectTerm from="99" polarity="1.0" term="features" to="107"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>cord is too short</text>
+		<aspectTerms>
+			<aspectTerm from="0" polarity="-1.0" term="cord" to="4"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>It was doing a great job charging my kindle, but now it takes almost all day to charge.</text>
+		<aspectTerms>
+			<aspectTerm from="25" polarity="0.0" term="charging" to="33"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Excellent product & amazing things it does. Nice clarity & functionality</text>
+		<aspectTerms>
+			<aspectTerm from="10" polarity="1.0" term="product" to="17"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Worst product ever. Constantly screwing up and filled with ads you have to pay to remove. Best Buy refused to help when I wanted to return it</text>
+		<aspectTerms>
+			<aspectTerm from="6" polarity="-1.0" term="product" to="13"/>
+			<aspectTerm from="59" polarity="-1.0" term="ads" to="62"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Light and easy to read, battery lasts a good while. The built-in light makes it a pleasure to use at night in bed.</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="1.0" term="read" to="22"/>
+			<aspectTerm from="24" polarity="1.0" term="battery" to="31"/>
+			<aspectTerm from="65" polarity="1.0" term="light" to="70"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I bought my step mom an updated kindle. She reads the new kindle more than her old one.</text>
+		<aspectTerms>
+			<aspectTerm from="32" polarity="1.0" term="kindle" to="38"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My 4 Year old grandson likes to play games and watch movies. This was the best ever purchase I've done.</text>
+		<aspectTerms>
+			<aspectTerm from="37" polarity="1.0" term="games " to="43"/>
+		</aspectTerms>
+	</sentence>
+</sentences>
