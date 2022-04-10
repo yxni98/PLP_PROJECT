@@ -1,132 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sentences>
 	<sentence>
-		<text>T430 keyboard / power button issue you can 100% turn the laptop on with no keyboard connected, it's safe. There's actually some contact on the T430 motherboard which you can short to turn the machine on. If you didn't want to replace your keyboard, you could diy some kind of solution as long as you're comfortable with basic soldering
-</text>
+		<text>audio technica ath may not be suitable for people outside Asian.most of their products are very light (I mean have a lot of high frequency.... sorry I am not a native English speaker)if you want to try ath, I recommend you to choose r70x m52x(they are designed for studio could be acceptable by more peopletrust me i am a faithful fan of ath and have many ath headphones.</text>
 		<aspectTerms>
-			<aspectTerm from="5" polarity="neutral" term="keyboard" to="13"/>
+			<aspectTerm from="265" polarity="positive" term="studio" to="271"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>What is a decent relaxing game to play on playstation? To me Destiny 2 CAN be mindless. It also can be intense. Very much whatever you want it to be. You can raid, you can pvp, or you can just chill and shoot things
-</text>
+		<text>Will this ThinkVision P27u-20 (Thunderbolt 4) work with T480 (Thunderbolt 3)? Thanks. Thanks I just thought that there might be some downgrades by using TB3 compared to TB4. Thank goodness for backward compatibility haha</text>
 		<aspectTerms>
-			<aspectTerm from="61" polarity="positive" term="Destiny 2" to="70"/>
+			<aspectTerm from="31" polarity="negative" term="Thunderbolt 4" to="44"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>W520: Is there Windows 10 drivers available for the trackpad? Lenovo had drivers for the x220 so not sure why they wouldn’t for the w520.  Have you tried the windows 8 driver?
-</text>
+		<text>just one cable more and I'm done with IEMs (for 2022) Sounds great. Has a strong mid-bass but doesn't affect the mids.</text>
 		<aspectTerms>
-			<aspectTerm from="52" polarity="neutral" term="trackpad" to="60"/>
+			<aspectTerm from="81" polarity="positive" term="mid-bass" to="89"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Is the Sanyo-E2100 still good in 2022? Define good
-</text>
+		<text>13P Bad Battery Life on iOS 15.4 bruh my max capacity was 98 and after the 15.4.1 update it went to 97</text>
 		<aspectTerms>
-			<aspectTerm from="7" polarity="positive" term="Sanyo-E2100" to="18"/>
+			<aspectTerm from="8" polarity="negative" term="Battery Life" to="20"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>DSLR Really cheap idgaf quality Fisheye lense? For APS-C sensors, the cheapest (and probably worst quality) I've come across is the Rockstar 10mm F/8 pancake.
-</text>
+		<text>Anyone have two iPads? Looking to buy a second ipad and want ideas if it seems worth it. I have a iPad Pro 12.9 (2018) and an iPad Mini 6. I use them at the same time when studying: I have a textbook opened at the Pro 12.9 and have a OneNote opened on the Mini 7. I previously thought that it was overkill to have two iPads, but I soon realized that it is more effective for me to have two devices rather than using splitscreen on the bigger iPad. I appreciate the screen estate that the bigger iPad brings to the textbook that I've been reading :)</text>
 		<aspectTerms>
-			<aspectTerm from="24" polarity="positive" term="quality" to="31"/>
+			<aspectTerm from="421" polarity="positive" term="screen" to="427"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Thinkpad T440P SD card speeds. huh, better return it then.
-</text>
+		<text>MacBook 4,1 raised from the deads with Windows 11, even getting updates !  Exactly. I updated the MacOS version to El Capitan too but it was indeed too laggy without 3D acceleration. I ended by using Mountain Lion with the Lion graphical drivers which works kinda well, and dual booting with W11. I tried Fedora and Ubuntu but the performance and drivers were not that great compared to osX and Windows. Maybe something lighter could work better. Funny to see this old mac ending with the "big evil competitor" solution ! The bad longevity of MacBooks has always retained me to buy them, we never know when support will be dropped. Hopefully on windows you can run whatever you want as long as the device can handle it.</text>
 		<aspectTerms>
-			<aspectTerm from="15" polarity="negative" term="SD card" to="22"/>
+			<aspectTerm from="115" polarity="negative" term="El Capitan" to="125"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Have you ever tested gears before and after alcohol ? Do they sound different? Sounds great. Has a strong mid-bass but doesn't affect the mids.
-</text>
+		<text>help! witch one would you choose for 4k heavy editing sony a7iii  thanks broo  Looks like ill be getting the more exxspensive less cpu and GPU but 32 GB of ram :D</text>
 		<aspectTerms>
-			<aspectTerm from="21" polarity="neutral" term="gears" to="26"/>
+			<aspectTerm from="131" polarity="neutral" term="cpu" to="134"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>my laptop doesn't work. when I start up today,it turns blue screen.only cursor can move,anybody know how to fix it? There’s many questions to your question…
-Does this happen after the OS is loaded or before?
-Do you see the windows logo on screen or manufacturer?
-Can you go into BIOS?
-Does this happen right after you login?
-Have you tried clicking CTRL+SHIFT+ESC if TskManager shows up?
-</text>
+		<text>How long do you guys wear your headphones and listen to music? I think the same music hits you differently depending on your mood.</text>
 		<aspectTerms>
-			<aspectTerm from="55" polarity="neutral" term="blue screen" to="66"/>
+			<aspectTerm from="31" polarity="neutral" term="headphones" to="41"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Which Iphone should i Get? The 13 Pro has a very comfortable size, I love the ergonomics of the 6.1 inch size. However, I would recommend the 13 Pro Max though because of the better battery life. 13 Pro's battery life isn't bad but there is a gap/difference, especially if you are a heavy user/use the phone a lot.   
-13 Pro is a 1 day usage phone for heavy users, I think. From what I see people post in terms of screenshots about battery life, the  13 Pro Max can coast into the second day with no problems.   
-I like the 13 Pro's size, but as someone else in the thread said, I kind of wish I went for the 13 Pro Max just because I feel that it would fit my usage habits more. The battery life is fine, considering the size, but I do envy the 13 Pro Max users' battery longevity at times.
-</text>
+		<text>W520: Is there Windows 10 drivers available for the trackpad? Not really. Maybe I’ll give that one a go and see how it goes.</text>
 		<aspectTerms>
-			<aspectTerm from="60" polarity="positive" term=" size" to="65"/>
+			<aspectTerm from="52" polarity="negative" term="trackpad" to="60"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.1. That should not be normal i guess? Anyone else experiencing this? My 2016 and 2018 definitely don’t do this. But if you peak your brightness etc it’ll drain quick sometimes depending on what you’re doing
-</text>
+		<text>Are you using a case with your phone? I’ve been doing no case with screen protector for 6 months now and it’s definitely not in near-perfect condition lol but it’s pretty close to it. The stainless steel edges on the backside has a few nicks from drops on concrete (one of my camera edges took a hit too). Other than that all the glass material is in pristine condition… They weren’t joking about this phone’s durability. An iPhone deserves to be used without a case with the attention to detail they put… but I have apple care so that’s mainly why I’m willing to take that risk.</text>
 		<aspectTerms>
-			<aspectTerm from="7" polarity="neutral" term="battery" to="14"/>
+			<aspectTerm from="67" polarity="neutral" term="screen protector" to="83"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Why were old iPad box designs so weird and unintuitive? Prestige? Just cause they can? I think by the time you have the box that pretty much must be true. People don’t buy ipads by looking at the boxes of different tablets in a retail shop like buying a toaster in the 91’s. 
-The box is no part of the decision to buy process at all.
-It is part of the customer product experience though. So they made it tempting and a little theactrical. 
-Clever Apple.
-</text>
+		<text>Serious question, can I literally just wash this in the sink? I did wash my W501’s lift-out keyboard in the sink.  Dried it with a hair dryer. Looks good, works great. Cool if you don’t mind dragging an anchor around.</text>
 		<aspectTerms>
-			<aspectTerm from="361" polarity="neutral" term="product experience" to="379"/>
+			<aspectTerm from="203" polarity="neutral" term="anchor" to="209"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Thinkpad T440P SD card speeds. did you buy directly from sandisk or actually from marketplace?
-</text>
+		<text>How long do you guys wear your headphones and listen to music? Why can't we have meets like this where I live :/. "How are those HD6xx treatin ya?" *takes sip of bourbon</text>
 		<aspectTerms>
-			<aspectTerm from="15" polarity="neutral" term="SD card" to="22"/>
+			<aspectTerm from="129" polarity="neutral" term="HD6xx" to="134"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Type-C charger for X230 the usb-c mod is pretty nice, but it's definitely a compromise when it means you have to give up on the trusty old barrelplug. I think the ugreen 100w gan charger is one of the best chargers around. for something even smaller the ugreen 65w or the anker nano II 65 are also great, but they  might struggle to power your x230 and another device at the same time
-</text>
+		<text>Reinstalling Windows on a M.2 SSD? AFAIK the m.2 slot in the W541 is SATA, just like the 2.5-inch bay. So there's no performance advantage to using the m.2 slot.</text>
 		<aspectTerms>
-			<aspectTerm from="28" polarity="neutral" term="usb-c mod" to="37"/>
+			<aspectTerm from="45" polarity="negative" term="m.2 slot" to="53"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Anyone have two iPads? Looking to buy a second ipad and want ideas if it seems worth it. I have a iPad Pro 12.9 (2018) and an iPad Mini 6. I use them at the same time when studying: I have a textbook opened at the Pro 12.9 and have a OneNote opened on the Mini 6. I previously thought that it was overkill to have two iPads, but I soon realized that it is more effective for me to have two devices rather than using splitscreen on the bigger iPad. I appreciate the screen estate that the bigger iPad brings to the textbook that I've been reading :)
-</text>
+		<text>r/headphones Shopping, Setup, and Technical Help Desk Maybe. The E10K is technically only rated for 150 ohms but that's not really a hard limit. The K5 Pro is a general upgrade in terms of power, features, and power supply. Get one from a seller with good return policies and try it out for yourself.</text>
 		<aspectTerms>
-			<aspectTerm from="234" polarity="positive" term="OneNote" to="241"/>
+			<aspectTerm from="189" polarity="positive" term="power" to="194"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.1. That should not be normal i guess? Anyone else experiencing this? I think it might have something to do with whether the "Share iPad Analytics" option is enabled or not (some commenter on the thread had the same issue). Of course, if you don’t want to enable that, then this is not an option.
-</text>
+		<text>Impressions of all the IEMs and headphones I heard at CanJam Singapore 2022. There's any estimated time of arrival for the Subtonic STORM and retail price?</text>
 		<aspectTerms>
-			<aspectTerm from="7" polarity="neutral" term="battery" to="14"/>
+			<aspectTerm from="123" polarity="neutral" term="Subtonic STORM" to="137"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Y’all be taking notes in portrait or landscape? lanscape!
-</text>
+		<text>Heads up to anyone thinking of buying an X1 carbon since gen 9 I don't have this problem with my gen 9</text>
 		<aspectTerms>
-			<aspectTerm from="16" polarity="neutral" term="notes" to="21"/>
+			<aspectTerm from="41" polarity="neutral" term="X1 carbon since gen 9" to="62"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Advice I think it’s a good app to start with. It has a lot of features and the app itself is free though it has a subscription plan, so I’d recommend checking it out
-</text>
+		<text>water damaged macbook :( Leave it at least 48/72 hours but I would definitely get a professional to assess the damage.</text>
 		<aspectTerms>
-			<aspectTerm from="27" polarity="positive" term="app" to="30"/>
+			<aspectTerm from="14" polarity="neutral" term="macbook" to="21"/>
 		</aspectTerms>
 	</sentence>
 </sentences>

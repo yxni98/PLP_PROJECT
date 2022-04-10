@@ -1,138 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sentences>
 	<sentence>
-		<text>KZ gets exposed for putting decorative drivers in their iems, Crinacle CRN is a single DD iem appearantly I use a KZ DQ6. I feel so hurt by their manipulative marketing. I've always wanted a multi-driver pair of earphones. And now i know that the one i have is just a 2DD earphone just like any other. But i like the sound quality tho. 
-</text>
+		<text>Mirrorless Camera suggestions? In that case, don’t bother with the X-T30 or X-E4. The only Fuji that might work for you would be the X-S10. It’s got the standard PASM and flip screen. But over budget with lens.</text>
 		<aspectTerms>
-			<aspectTerm from="317" polarity="positive" term="sound quality" to="330"/>
+			<aspectTerm from="0" polarity="neutral" term="Mirrorless Camera" to="17"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Do I need 16gb ram on the M1 MacBook Air? Leave it at least 48/72 hours but I would definitely get a professional to assess the damage.
-</text>
+		<text>KZ gets exposed for putting decorative drivers in their iems, Crinacle CRN is a single DD iem appearantly Haha yerp but I really think with the hifiman and probably the topping dx3 pro I'm done for real. I'm going to save money after that. I have to...</text>
 		<aspectTerms>
-			<aspectTerm from="10" polarity="negative" term="16gb ram" to="18"/>
+			<aspectTerm from="56" polarity="positive" term="iems" to="60"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Looking for my first camera No worries. Don't be afraid to buy lightly used gear as it will save you money that you can put towards nicer lenses.
-</text>
-		<aspectTerms>
-			<aspectTerm from="21" polarity="neutral" term="camera" to="27"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>Advice VN Video Editor, it's completely free and fully featured with no extra purchases. I use it to make videos for my YouTube channel and it's pretty great! It has green screen support, multiple tracks, really good filters, and a basic built-in audio editor. Here's a tutorial if you're interested, he's using the iPad app, which is at par with the Mac version of VN.  
-https://www.youtube.com/watch?v=yb7-ab-6MO8 list=LL index=2 t=400s
-</text>
-		<aspectTerms>
-			<aspectTerm from="106" polarity="positive" term="videos" to="112"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>I just got my IPad pro 11 and Im going to use it 60% for notetaking. Already have Mac Pro. Is Paperlike and Logitech Toch enough protection? Don’t buy the original paperlike protection!! It’s a waste of money and there are better and cheaper solutions available. All paperlike reviews on YouTube are sponsored!!!
-I have these from Amazon. 2 protectors for Euro 6,53
-TECHGEAR [2-pack] Anti-glare Screen Protectors for iPad Pro 11, iPad air 4 10.9 2020, Matte Screen Protector Guard Compatible with Apple Pencil   iPad Pro 11 2021/3e generation, 2020/2e generation   2018
-</text>
-		<aspectTerms>
-			<aspectTerm from="164" polarity="negative" term="paperlike protection" to="184"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>What season is best to shoot star-timelapse like these? I’ve just looked skymap up and i don’t think it’s available on the App store but it is on google play
-</text>
-		<aspectTerms>
-			<aspectTerm from="29" polarity="neutral" term="star-timelapse" to="43"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>just one cable more and I'm done with IEMs (for 2022) Haha yerp but I really think with the hifiman and probably the topping dx3 pro I'm done for real. I'm going to save money after that. I have to...
-</text>
-		<aspectTerms>
-			<aspectTerm from="38" polarity="neutral" term="IEMs" to="42"/>
-		</aspectTerms>
-	</sentence>
-	<sentence>
-		<text>MacBook 4,1 raised from the deads with Windows 11, even getting updates !  It happens to me all the time. I tried uninstalling some apps which dont use and it helped me. It seemed some were using ram in background
-</text>
+		<text>MacBook 4,1 raised from the deads with Windows 11, even getting updates !  It happens to me all the time. I tried uninstalling some apps which dont use and it helped me. It seemed some were using ram in background</text>
 		<aspectTerms>
 			<aspectTerm from="132" polarity="neutral" term="apps" to="136"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Type-C charger for X232 the usb-c mod is pretty nice, but it's definitely a compromise when it means you have to give up on the trusty old barrelplug. I think the ugreen 100w gan charger is one of the best chargers around. for something even smaller the ugreen 65w or the anker nano II 65 are also great, but they  might struggle to power your x232 and another device at the same time
-</text>
+		<text>M1 Macbook Pro - Closed Lid - Next Time Opened Found This Crack + Complete Black Screen While On - What To Do? Good sir, there is no consumer law that will cover this...</text>
 		<aspectTerms>
-			<aspectTerm from="272" polarity="neutral" term="anker nano II 65" to="288"/>
+			<aspectTerm from="0" polarity="neutral" term="M1 Macbook Pro" to="14"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Heads up to anyone thinking of buying an X1 carbon since gen 9 as hard as it would first be, im off to apple, macbook pro and probably the entire ecosystem later on
-</text>
+		<text>Is the Sanyo-E2100 still good in 2022? For me, stickers like the one on the top were always an indicator that a camera might actually be not as good as advertised.</text>
 		<aspectTerms>
-			<aspectTerm from="139" polarity="negative" term="entire ecosystem" to="155"/>
+			<aspectTerm from="47" polarity="negative" term="stickers" to="55"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Y’all be taking notes in portrait or landscape? Landscape split-screen >>>
-</text>
+		<text>Wasn't sure about getting a new laptop idk hard to compare but intel has a lot of variations of their cpus so it can be a bit confusing</text>
+		<aspectTerms>
+			<aspectTerm from="102" polarity="neutral" term="cpus" to="106"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>help! witch one would you choose for 4k heavy editing sony a7iii  If I had to choose, I would go for the RAM. Especially for heavy work more RAM is always better and you would be less reliant on memory swap.Sure the M2 does a pretty good job using the fast SSD for memory swap so you should benefit from more core (especially when using effects). But keep in mind that every core does need a certain amount of memory . The more cores you have, the more they can benefit from more RAM.But to state the obvious.. neither one is a bad choice and will get the job done. ;)</text>
+		<aspectTerms>
+			<aspectTerm from="257" polarity="neutral" term="SSD" to="260"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>KZ gets exposed for putting decorative drivers in their iems, Crinacle CRN is a single DD iem appearantly I use a KZ DQ6. I feel so hurt by their manipulative marketing. I've always wanted a multi-driver pair of earphones. And now i know that the one i have is just a 2DD earphone just like any other. But i like the sound quality tho. </text>
+		<aspectTerms>
+			<aspectTerm from="317" polarity="positive" term="sound quality" to="330"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Advice That’s the price of good software, unless you want to go down the hellhole of crappy subscriptions that are so prevalent today.LumaFusion is as good as you are going to get for video editing on the iPad. Otherwise, I would look towards video editors on macOS or Windows as they offer the most complete experience.</text>
+		<aspectTerms>
+			<aspectTerm from="32" polarity="positive" term="software" to="40"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Anyone have two iPads? Looking to buy a second ipad and want ideas if it seems worth it. I have a iPad Pro 12.9 (2018) and an iPad Mini 6. I use them at the same time when studying: I have a textbook opened at the Pro 12.9 and have a OneNote opened on the Mini 6. I previously thought that it was overkill to have two iPads, but I soon realized that it is more effective for me to have two devices rather than using splitscreen on the bigger iPad. I appreciate the screen estate that the bigger iPad brings to the textbook that I've been reading :)</text>
+		<aspectTerms>
+			<aspectTerm from="234" polarity="positive" term="OneNote" to="241"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Y’all be taking notes in portrait or landscape? Portrait.</text>
 		<aspectTerms>
 			<aspectTerm from="16" polarity="neutral" term="notes" to="21"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Why were old iPad box designs so weird and unintuitive? Prestige? Just cause they can? What aspect of it? I like the ritual of holding the lid still while the bottom slowly slides out cause it’s such a tight fit. 
-Sorta reminds me of Darth Vader taking his helmet off in the steamy pod thing. 
-Is it the minimal graphics? I.e not covered in writing and specs like gaming mouse packaging?
-</text>
+		<text>Which Iphone should i Get? I used to have the 13PM and it was big, and real heavy. I also dropped it on my face a lot  it happens when you’re scrolling and dosing off. I got fed up with it and downsized to the pro. It fits better in my pocket , it’s not as heavy and the screen size difference was very minimal. I got used to it really quick. I’m pretty sure when you buy it you’ll have a return or exchange window where you can swap out for the other. (Be mindful of restocking fees)</text>
 		<aspectTerms>
-			<aspectTerm from="18" polarity="negative" term="box designs" to="29"/>
+			<aspectTerm from="271" polarity="positive" term="screen size" to="282"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.2. That should not be normal i guess? Anyone else experiencing this? It‘s not kaputt, mine did the same shit until the recent update. It even used to lose 31% charge over night without doin anything, not even charging the pencil. But yeah, not the issue seems fixed, but no idea why yours does it, the only thing I know is, it‘s a software issue
-</text>
+		<text>What is a decent relaxing game to play on playstation? To me Destiny 2 CAN be mindless. It also can be intense. Very much whatever you want it to be. You can raid, you can pvp, or you can just chill and shoot things</text>
 		<aspectTerms>
-			<aspectTerm from="425" polarity="neutral" term="software" to="433"/>
+			<aspectTerm from="61" polarity="positive" term="Destiny 2" to="70"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Have you ever tested gears before and after alcohol ? Do they sound different? Try them with weed if you really wanna enjoy them
-Lol
-</text>
+		<text>Reinstalling Windows on a M.2 SSD? What is your concern with cloning the drive?  I think that's the only way you are going to be able to "move" it, anything else is a fresh installation, which isn't necessarily a bad idea either.</text>
 		<aspectTerms>
-			<aspectTerm from="21" polarity="positive" term="gears" to="26"/>
+			<aspectTerm from="173" polarity="neutral" term="installation" to="185"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Anyone have two iPads? Looking to buy a second ipad and want ideas if it seems worth it. I have a iPad Pro 12.9 (2018) and an iPad Mini 6. I use them at the same time when studying: I have a textbook opened at the Pro 12.9 and have a OneNote opened on the Mini 7. I previously thought that it was overkill to have two iPads, but I soon realized that it is more effective for me to have two devices rather than using splitscreen on the bigger iPad. I appreciate the screen estate that the bigger iPad brings to the textbook that I've been reading :)
-</text>
+		<text>Taken on my 14 pro at my wedding last weekend Greens and yellows are desaturated imo</text>
 		<aspectTerms>
-			<aspectTerm from="421" polarity="positive" term="screen" to="427"/>
+			<aspectTerm from="57" polarity="negative" term="yellows" to="64"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Will this ThinkVision P27u-20 (Thunderbolt 4) work with T480 (Thunderbolt 3)? Thanks. Thanks I just thought that there might be some downgrades by using TB3 compared to TB4. 
-Thank goodness for backward compatibility haha
-</text>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? No, but I usually end up with more stuff being delivered to my house when I was drunk the day before.</text>
 		<aspectTerms>
-			<aspectTerm from="31" polarity="negative" term="Thunderbolt 4" to="44"/>
+			<aspectTerm from="21" polarity="neutral" term="gears" to="26"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>My family uses Macs and I can confirm this is true I run Arch as well. For example, a frequent struggle on Arch based systems is plugging in an external display and it simply not working. Setting up your own DE and customizing it isn't exactly streamlined either. 
-A kitchen sink distro is plenty streamlined if you know how to use Linux, but unfortunately (in my experience) no distro is at the point that a lack of troubleshooting stuff in terminal can be guaranteed.
-</text>
+		<text>audio technica ath may not be suitable for people outside Asian.most of their products are very light (I mean have a lot of high frequency.... sorry I am not a native English speaker)if you want to try ath, I recommend you to choose r70x m50x(they are designed for studiocould be acceptable by more peopletrust me i am a faithful fan of ath and have many ath headphones.</text>
 		<aspectTerms>
-			<aspectTerm from="112" polarity="negative" term="based systems" to="125"/>
-			<aspectTerm from="280" polarity="negative" term="distro" to="286"/>
+			<aspectTerm from="57" polarity="negative" term=" Asian" to="63"/>
 		</aspectTerms>
 	</sentence>
 	<sentence>
-		<text>Macbook Air 13 or Macbook Pro 13? Unfortunately, Apple does not sell refurbished models in my country. But from what I have read over the years, it is a good choice.
-</text>
+		<text>Oldschool friday. Had to power up this old beast just to play RA2, cause it won’t run on Mac. Oh the memories. yet to play mental omega</text>
 		<aspectTerms>
-			<aspectTerm from="81" polarity="negative" term="models" to="87"/>
+			<aspectTerm from="101" polarity="neutral" term="memories" to="109"/>
 		</aspectTerms>
 	</sentence>
 </sentences>

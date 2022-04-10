@@ -31,6 +31,7 @@ def construct_data(read_path, output_path, platform):
 		for i in range(179):
 			polarity = polarity_dict[str(int(sheet.cell(i,3).value))]
 			original_text = str(sheet.cell(i,0).value) + ' ' + str(sheet.cell(i,1).value)
+			original_text = original_text.replace('\n', '').replace('<3', '').replace('<4', '')
 			term = str(sheet.cell(i,2).value)
 			from_index = original_text.index(term)
 			to_index = from_index+len(term)
@@ -86,6 +87,6 @@ def construct_data(read_path, output_path, platform):
 	f.close()
 
 
-construct_data('manually_labeled_amazon.xlsx', 'amazon_raw/', 'amazon')
+# construct_data('manually_labeled_amazon.xlsx', 'amazon_raw/', 'amazon')
 
 construct_data('manually_labeled_reddit.xlsx', 'reddit_raw/', 'reddit')
