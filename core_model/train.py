@@ -101,7 +101,7 @@ def train(args):
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0)
             optimizer.step()
-            if i % 10 == 0 and i > 0:
+            if i >= 0:
                 train_loss = total_loss / total_samples
                 train_accuracy = correct_samples / total_samples
                 total_loss = 0
