@@ -17,7 +17,7 @@ class params(object):
 		self.capsule_size = 300
 		self.bidirectional = True
 		self.dropout = 0.1
-		self.batch_size = 16
+		self.batch_size = 64
 		self.gpu_device = '8'
 		self.optimizer = 'adam'
 
