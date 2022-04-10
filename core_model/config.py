@@ -9,16 +9,16 @@ class params(object):
 		self.min_vocab_freq = 0
 		self.glove_file = './data/glove.840B.300d.txt'
 		self.add_predefined_sentiment = './data/sentiment_dict.json'
-		self.num_epoches = 12
-		self.learning_rate = 0.0003
+		self.num_epoches = 50
+		self.learning_rate = 0.0001
 		self.weight_decay = 0
 		self.embed_size = 300
 		self.num_layers = 3
 		self.capsule_size = 300
 		self.bidirectional = True
 		self.dropout = 0.1
-		self.batch_size = 64
-		self.gpu_device = '1'
+		self.batch_size = 16
+		self.gpu_device = '8'
 		self.optimizer = 'adam'
 
 args = params()

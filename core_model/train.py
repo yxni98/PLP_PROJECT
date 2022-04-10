@@ -2,7 +2,7 @@ import yaml
 import os
 import time
 import pickle
-from config import args
+
 import torch
 from torch import optim
 from torch import nn
@@ -11,8 +11,6 @@ from test_utils.eval import eval
 from torch.utils.data import DataLoader
 from data_utils.create_dataset import create_dataset
 from model_utils.backbone import backbone_model
-
-os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_device
 
 class capsule_nn_loss(nn.Module):
     def __init__(self, smooth=0.1, lamda=0.6):
@@ -45,7 +43,7 @@ def optimizer_selection(args, model):
     optimizer = opt[args.optimizer](model.parameters(), lr=lr, weight_decay=weight_decay)
     return optimizer
 
-def make_term_data():
+def make_term_data(args):
     data_path = args.data_path
     train_path = os.path.join(data_path, 'processed/train.npz')
     val_path = os.path.join(data_path, 'processed/val.npz')
@@ -65,12 +63,14 @@ def make_term_data():
     )
     return train_loader, val_loader
 
-def train():
+def train(args):
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_device
+    
     model = backbone_model()
-    train_loader, val_loader = make_term_data()
+    train_loader, val_loader = make_term_data(args)
 
     model = model.cuda()
-    model_path = os.path.join(args.data_path, 'checkpoints/recurrent_capsnet.pth')
+    model_path = os.path.join(args.data_path, 'checkpoints/'+'lr_'+str(args.learning_rate)+'_layerno_'+str(args.num_layers)+'_recurrent_capsnet.pth')
     if not os.path.exists(os.path.dirname(model_path)):
         os.makedirs(os.path.dirname(model_path))
     with open(os.path.join(args.data_path, 'processed/index2word.pickle'), 'rb') as handle:
@@ -108,8 +108,7 @@ def train():
                 total_samples = 0
                 correct_samples = 0
                 val_accuracy, val_loss = eval(model, val_loader, criterion)
-                print('[epoch %2d] [step %3d] train_loss: %.4f train_acc: %.4f val_loss: %.4f val_acc: %.4f'
-                      % (epoch, i, train_loss, train_accuracy, val_loss, val_accuracy))
+                # print('[epoch %2d] [step %3d] train_loss: %.4f train_acc: %.4f val_loss: %.4f val_acc: %.4f' % (epoch, i, train_loss, train_accuracy, val_loss, val_accuracy))
                 if val_accuracy > max_val_accuracy:
                     max_val_accuracy = val_accuracy
                     # torch.save(aspect_term_model.state_dict(), model_path)
@@ -118,5 +117,5 @@ def train():
                     if epoch > 0:
                         torch.save(model.state_dict(), model_path)
         end = time.time()
-        print('time: %.4fs' % (end - start))
+        # print('time: %.4fs' % (end - start))
     print('max_val_accuracy:', max_val_accuracy)
