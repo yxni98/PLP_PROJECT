@@ -70,7 +70,7 @@ def train(args):
     train_loader, val_loader = make_term_data(args)
 
     model = model.cuda()
-    model_path = os.path.join(args.data_path, 'checkpoints/'+'lr_'+str(args.learning_rate)+'_layerno_'+str(args.num_layers)+'_recurrent_capsnet.pth')
+    model_path = os.path.join(args.data_path, 'checkpoints/'+'lr_0.001_layerno_1_recurrent_capsnet.pth')
     if not os.path.exists(os.path.dirname(model_path)):
         os.makedirs(os.path.dirname(model_path))
     with open(os.path.join(args.data_path, 'processed/index2word.pickle'), 'rb') as handle:
@@ -78,7 +78,7 @@ def train(args):
     criterion = capsule_nn_loss()
     optimizer = optimizer_selection(args, model)
     max_val_accuracy = 0
-    min_val_loss = 100
+    min_val_loss = 9999999
     global_step = 0
     for epoch in range(args.num_epoches):
         total_loss = 0
@@ -114,8 +114,8 @@ def train(args):
                     # torch.save(aspect_term_model.state_dict(), model_path)
                 if val_loss < min_val_loss:
                     min_val_loss = val_loss
-                    if epoch > 0:
-                        torch.save(model.state_dict(), model_path)
+                    if epoch >= 0:
+                        torch.save(model.state_dict(), os.path.join(args.data_path, 'checkpoints/'+'lr_'+str(args.learning_rate)+'_layerno_'+str(args.num_layers)+'_reddit_recurrent_capsnet.pth'))
         end = time.time()
         # print('time: %.4fs' % (end - start))
     print('max_val_accuracy:', max_val_accuracy)
