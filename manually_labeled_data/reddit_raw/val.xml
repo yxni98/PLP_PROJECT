@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sentences>
+	<sentence>
+		<text>W520: Is there Windows 10 drivers available for the trackpad? Lenovo had drivers for the x220 so not sure why they wouldn’t for the w520.  Have you tried the windows 8 driver?
+</text>
+		<aspectTerms>
+			<aspectTerm from="52" polarity="neutral" term="trackpad" to="60"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Serious question, can I literally just wash this in the sink? Just buy a replacement as that keyboard will never work correctly again.
+</text>
+		<aspectTerms>
+			<aspectTerm from="93" polarity="negative" term="keyboard" to="101"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Why were old iPad box designs so weird and unintuitive? Prestige? Just cause they can? What aspect of it? I like the ritual of holding the lid still while the bottom slowly slides out cause it’s such a tight fit. 
+Sorta reminds me of Darth Vader taking his helmet off in the steamy pod thing. 
+Is it the minimal graphics? I.e not covered in writing and specs like gaming mouse packaging?
+</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="negative" term="box designs" to="29"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. Damn ur on it way more than me sick battery life
+</text>
+		<aspectTerms>
+			<aspectTerm from="145" polarity="negative" term=" battery" to="153"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>in love with this little fella, x240 with linux on it :') it has 4gb, and in my use case I always have around 2gb to spare, gotta love linux :')
+</text>
+		<aspectTerms>
+			<aspectTerm from="42" polarity="positive" term="linux" to="47"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Do I need 16gb ram on the M1 MacBook Air? With that mindset a raspberry pi might even be enough.
+</text>
+		<aspectTerms>
+			<aspectTerm from="10" polarity="neutral" term="16gb ram" to="18"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>dunu titan s or just shouty ( forward ) iems in general EQ. There's no such thing as an IEM that is good for one type of vocals or not another. It just has a flaw that may bother you with some styles less than others so you are trying to work around it. Or you can just EQ it to how you think it should sound.
+</text>
+		<aspectTerms>
+			<aspectTerm from="88" polarity="positive" term="IEM" to="91"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? Sounds great. Has a strong mid-bass but doesn't affect the mids.
+</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="neutral" term="gears" to="26"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My family uses Macs and I can confirm this is true I run Arch as well. For example, a frequent struggle on Arch based systems is plugging in an external display and it simply not working. Setting up your own DE and customizing it isn't exactly streamlined either. 
+A kitchen sink distro is plenty streamlined if you know how to use Linux, but unfortunately (in my experience) no distro is at the point that a lack of troubleshooting stuff in terminal can be guaranteed.
+</text>
+		<aspectTerms>
+			<aspectTerm from="112" polarity="negative" term="based systems" to="125"/>
+			<aspectTerm from="280" polarity="negative" term="distro" to="286"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Y’all be taking notes in portrait or landscape? Second this! 
+Procreate sparked my long forgotten passion and skill for drawing. Worth all the money and then some
+</text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="neutral" term="notes" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>just one cable more and I'm done with IEMs (for 2022) Sounds great. Has a strong mid-bass but doesn't affect the mids.
+</text>
+		<aspectTerms>
+			<aspectTerm from="81" polarity="positive" term="mid-bass" to="89"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>in love with this little fella, x240 with linux on it :') battery wise it's been really good for my use case, even though the battery isn't new (obviously)
+</text>
+		<aspectTerms>
+			<aspectTerm from="58" polarity="positive" term="battery" to="65"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Horrible camera I agree. Although I think the camera is probably fine, it's the software that is making bad decisions. The AI is not great in many situations, and it interferes with my directions. 
+My typical use case is video of scenery through a light aircraft window. The 12 Pro Max I had before handled this very well. The 13 Pro I have now almost always stops down to the wide camera and digital zooms. I can also been 50/50 whether you get the zoom lens, or one of the wide's. The results are much worse than from the 13 Pro Max.
+Macro seems hit or miss as well.
+Apple need to fix this. It's the first iPhone I've ever felt disappointed with.
+</text>
+		<aspectTerms>
+			<aspectTerm from="80" polarity="negative" term="software" to="88"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T440P SD card speeds. did you buy directly from sandisk or actually from marketplace?
+</text>
+		<aspectTerms>
+			<aspectTerm from="15" polarity="neutral" term="SD card" to="22"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? If you have any other device for multimedia consumption, laptop or iPad, then the 13 Pro. If the phone will be your primary media consumption device, 13 Pro Max. 
+I personally prefer 13 Pro. Would be happier if it was 5.8” like the X instead of 6.1” too - but that’s because my multimedia consumption happens on my iPad.</text>
+		<aspectTerms>
+			<aspectTerm from="65" polarity="neutral" term="media" to="70"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.1. That should not be normal i guess? Anyone else experiencing this? It‘s not kaputt, mine did the same shit until the recent update. It even used to lose 30% charge over night without doin anything, not even charging the pencil. But yeah, not the issue seems fixed, but no idea why yours does it, the only thing I know is, it‘s a software issue
+</text>
+		<aspectTerms>
+			<aspectTerm from="7" polarity="neutral" term="battery" to="14"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>MacBook 4,1 raised from the deads with Windows 11, even getting updates !  It happens to me all the time. I tried uninstalling some apps which dont use and it helped me. It seemed some were using ram in background
+</text>
+		<aspectTerms>
+			<aspectTerm from="132" polarity="neutral" term="apps" to="136"/>
+		</aspectTerms>
+	</sentence>
+</sentences>
