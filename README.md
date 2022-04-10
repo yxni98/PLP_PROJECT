@@ -10,6 +10,7 @@ To run this project, you need to install the following libraries
 * scikit-learn
 * pyyaml
 * adabound
+* xlrd==1.2.0
 
 ## data requiement
 To enable init representation of words, you need to download the glove file from http://nlp.stanford.edu/data/wordvecs/glove.840B.300d.zip, and put the txt file under the 'data' directory.
