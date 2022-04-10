@@ -9,7 +9,7 @@ if __name__ == '__main__':
 	print('##################### DATA PROCESS ###################################')
 	dataset()
 
-	for lr in [0.0001, 0.001, 0.01, 0.1]:
+	for lr in [0.0001, 0.001, 0.01]:
 		for layerno in [1, 2, 3, 4, 5]:
 			print('##################### CONFIGURATION ##############################')
 			args.learning_rate = lr
