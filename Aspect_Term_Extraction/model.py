@@ -18,8 +18,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 
 # KeyBERT
-from keybert._mmr import mmr
-from keybert.backend._utils import select_backend
+from mmr import mmr
+from utils import select_backend
 
 
 class KeyBERT:
