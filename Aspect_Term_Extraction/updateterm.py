@@ -21,7 +21,7 @@ def get_terms(data):
       review = df[0][i]
       keyword = kw_model.extract_keywords(review, keyphrase_ngram_range=(1, 1), stop_words='english',
                                 use_maxsum=False, nr_candidates=20, top_n=3)
-      row = keyword[1][0] + ',' + keyword[2][0]
+      row = keyword[0][0] + ',' + keyword[1][0]
       df2.loc[i] = row
       i = i + 1
     # df_final = pd.concat([df,df2],axis=1)
