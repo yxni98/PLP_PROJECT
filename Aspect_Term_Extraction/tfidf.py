@@ -61,6 +61,11 @@ top_k = 10
 data1 = pd.read_csv(dataFile)
 
 def getKeywords_tfidf(data,topK):
+   
+    '''
+    输入提取好的文件集，输出为关键词提取集合，以备做后续的相似度对比
+    '''
+   
     idList, titleList, abstractList = data['0'], data['1'], data['2']
     corpus = [] # 将所有文档输出到一个list中，一行就是一个文档
     for index in range(len(idList)):
@@ -98,6 +103,8 @@ def getKeywords_tfidf(data,topK):
         keys.append(word_split)
 
     result = pd.DataFrame({"id": ids, "title": titles, "key": keys},columns=['id','title','key'])
-    return result
+    r1 = result['key'].values
+    r1 = r1.tolist()
+    return r1
 
-r = getKeywords_tfidf(data1,30)
+## r = getKeywords_tfidf(data1,30)
