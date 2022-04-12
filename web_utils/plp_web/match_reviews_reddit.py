@@ -31,10 +31,12 @@ def match_reviews_from_reddit(product, page_count):
 			next_link = soup.findAll("span", class_ = "next-button")[-1].find('a').attrs['href']
 			print(str(next_link))
 			browser.get(str(next_link))
+			data = browser.page_source
 			soup =  BeautifulSoup(data, "html.parser")
 			post_titles += [post.get_text() for post in soup.findAll("a", class_ = "title")]
 			post_comment += [post.get_text() for post in soup.findAll("div", class_ = "md")][-len(post_titles):]
 			print('next page!')
+			soup =  BeautifulSoup(data, "html.parser")
 		except Exception as e:
 			continue
 		
