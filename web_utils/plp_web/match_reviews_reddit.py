@@ -46,7 +46,7 @@ def match_reviews_from_reddit(product, page_count):
 
 def return_review_from_reddit(product):
 	all_reviews = []
-	page_count = 5
+	page_count = 12
 	reviews = match_reviews_from_reddit(product, page_count)
 	all_reviews += reviews
 
