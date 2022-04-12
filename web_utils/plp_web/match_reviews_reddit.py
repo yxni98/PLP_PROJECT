@@ -27,13 +27,17 @@ def match_reviews_from_reddit(product, page_count):
 
 	current_count = 1
 	while current_count < page_count:
-		next_link = soup.findAll("span", class_ = "next-button")[-1].find('a').attrs['href']
-		print(str(next_link))
-		browser.get(str(next_link))
-		soup =  BeautifulSoup(data, "html.parser")
-		post_titles += [post.get_text() for post in soup.findAll("a", class_ = "title")]
-		post_comment += [post.get_text() for post in soup.findAll("div", class_ = "md")][-len(post_titles):]
-		print('next page!')
+		try:
+			next_link = soup.findAll("span", class_ = "next-button")[-1].find('a').attrs['href']
+			print(str(next_link))
+			browser.get(str(next_link))
+			soup =  BeautifulSoup(data, "html.parser")
+			post_titles += [post.get_text() for post in soup.findAll("a", class_ = "title")]
+			post_comment += [post.get_text() for post in soup.findAll("div", class_ = "md")][-len(post_titles):]
+			print('next page!')
+		except Exception as e:
+			continue
+		
 		current_count += 1
 		
 	
@@ -46,7 +50,7 @@ def match_reviews_from_reddit(product, page_count):
 
 def return_review_from_reddit(product):
 	all_reviews = []
-	page_count = 12
+	page_count = 30
 	reviews = match_reviews_from_reddit(product, page_count)
 	all_reviews += reviews
 
