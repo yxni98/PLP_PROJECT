@@ -13,6 +13,7 @@ from Aspect_Term_Extraction.updateterm import get_terms
 from core_model.sentiment_output import return_sentiment_output
 from my_wordcloud import save_wordcloud
 from my_histogram import draw_histogram
+from my_report import statistics
 
 def get_sorted_terms(term_list_1D):
 	term_count = {}
@@ -94,17 +95,22 @@ def generate_result(platform, product, reviews, customed_category, products, tim
 		shutil.copyfile('D:/plp_project/web_utils/plp_web/app/static/images/'+product+'_'+platform+'_wordcloud.jpg', 'D:/plp_project/web_utils/plp_web/app/static/images/3.jpg')
 		shutil.copyfile('D:/plp_project/web_utils/plp_web/app/static/images/'+product+'_'+platform+'_histogram.jpg', 'D:/plp_project/web_utils/plp_web/app/static/images/4.jpg')
 
+	return term_list_1D, category_list_1D, sentiment_list_1D
+
 def analyse_result(request):
 	try:
 		os.remove('D:/plp_project/web_utils/plp_web/app/static/images/1.jpg')
 		os.remove('D:/plp_project/web_utils/plp_web/app/static/images/2.jpg')
 		os.remove('D:/plp_project/web_utils/plp_web/app/static/images/3.jpg')
 		os.remove('D:/plp_project/web_utils/plp_web/app/static/images/4.jpg')
+		os.remove('D:/plp_project/web_utils/plp_web/app/static/images/5.jpg')
 	except Exception as e:
 		pass
 	
 	product = escape(request.GET["product"])
 	customed_category = escape(request.GET["customed_category"])
+
+	product = product.lower()
 
 	timestamp = int(time.time())
 	
@@ -116,9 +122,9 @@ def analyse_result(request):
 		last_time = query_result[1]
 		if (last_time - timestamp) <= 86400: # no more that 1 day
 			query_tag = 1
-			
-	# print(len(products))
-	# products[0].delete()
+
+	# for i in range(len(products)):
+	# 	products[i].delete()
 	
 	platform = 'amazon'
 	if query_tag == 1:
@@ -128,7 +134,7 @@ def analyse_result(request):
 		reviews = return_amazon_reviews(product)
 		for i in range(len(reviews)):
 			reviews[i] = reviews[i].replace('<','').replace('>','')
-		generate_result(platform, product, reviews, customed_category, products, timestamp)
+		amazon_term_list, amazon_category_list, amazon_sentiment_list = generate_result(platform, product, reviews, customed_category, products, timestamp)
 
 	platform = 'reddit'
 	if query_tag == 1:
@@ -138,7 +144,9 @@ def analyse_result(request):
 		reviews = return_review_from_reddit(product)
 		for i in range(len(reviews)):
 			reviews[i] = reviews[i].replace('<','').replace('>','')
-		generate_result(platform, product, reviews, customed_category, products, timestamp)
+		reddit_term_list, reddit_category_list, reddit_sentiment_list = generate_result(platform, product, reviews, customed_category, products, timestamp)
 
+	statistics(product, amazon_term_list, amazon_category_list, amazon_sentiment_list, reddit_term_list, reddit_category_list, reddit_sentiment_list)
+	shutil.copyfile('D:/plp_project/web_utils/plp_web/app/static/images/'+product+'_platform_comparison.jpg', 'D:/plp_project/web_utils/plp_web/app/static/images/5.jpg')
 
 	return render(request, 'result.html', {'product_name':match_product_name})
