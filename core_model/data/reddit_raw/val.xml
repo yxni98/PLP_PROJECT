@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sentences>
+	<sentence>
+		<text>audio technica ath may not be suitable for people outside Asian.most of their products are very light (I mean have a lot of high frequency.... sorry I am not a native English speaker)if you want to try ath, I recommend you to choose r70x m52x(they are designed for studio could be acceptable by more peopletrust me i am a faithful fan of ath and have many ath headphones.</text>
+		<aspectTerms>
+			<aspectTerm from="265" polarity="positive" term="studio" to="271"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Will this ThinkVision P27u-20 (Thunderbolt 4) work with T480 (Thunderbolt 3)? Thanks. Thanks I just thought that there might be some downgrades by using TB3 compared to TB4. Thank goodness for backward compatibility haha</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="negative" term="Thunderbolt 4" to="44"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>just one cable more and I'm done with IEMs (for 2022) Sounds great. Has a strong mid-bass but doesn't affect the mids.</text>
+		<aspectTerms>
+			<aspectTerm from="81" polarity="positive" term="mid-bass" to="89"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>13P Bad Battery Life on iOS 15.4 bruh my max capacity was 98 and after the 15.4.1 update it went to 97</text>
+		<aspectTerms>
+			<aspectTerm from="8" polarity="negative" term="Battery Life" to="20"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Anyone have two iPads? Looking to buy a second ipad and want ideas if it seems worth it. I have a iPad Pro 12.9 (2018) and an iPad Mini 6. I use them at the same time when studying: I have a textbook opened at the Pro 12.9 and have a OneNote opened on the Mini 7. I previously thought that it was overkill to have two iPads, but I soon realized that it is more effective for me to have two devices rather than using splitscreen on the bigger iPad. I appreciate the screen estate that the bigger iPad brings to the textbook that I've been reading :)</text>
+		<aspectTerms>
+			<aspectTerm from="421" polarity="positive" term="screen" to="427"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>MacBook 4,1 raised from the deads with Windows 11, even getting updates !  Exactly. I updated the MacOS version to El Capitan too but it was indeed too laggy without 3D acceleration. I ended by using Mountain Lion with the Lion graphical drivers which works kinda well, and dual booting with W11. I tried Fedora and Ubuntu but the performance and drivers were not that great compared to osX and Windows. Maybe something lighter could work better. Funny to see this old mac ending with the "big evil competitor" solution ! The bad longevity of MacBooks has always retained me to buy them, we never know when support will be dropped. Hopefully on windows you can run whatever you want as long as the device can handle it.</text>
+		<aspectTerms>
+			<aspectTerm from="115" polarity="negative" term="El Capitan" to="125"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>help! witch one would you choose for 4k heavy editing sony a7iii  thanks broo  Looks like ill be getting the more exxspensive less cpu and GPU but 32 GB of ram :D</text>
+		<aspectTerms>
+			<aspectTerm from="131" polarity="neutral" term="cpu" to="134"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>How long do you guys wear your headphones and listen to music? I think the same music hits you differently depending on your mood.</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="neutral" term="headphones" to="41"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>W520: Is there Windows 10 drivers available for the trackpad? Not really. Maybe I’ll give that one a go and see how it goes.</text>
+		<aspectTerms>
+			<aspectTerm from="52" polarity="negative" term="trackpad" to="60"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Are you using a case with your phone? I’ve been doing no case with screen protector for 6 months now and it’s definitely not in near-perfect condition lol but it’s pretty close to it. The stainless steel edges on the backside has a few nicks from drops on concrete (one of my camera edges took a hit too). Other than that all the glass material is in pristine condition… They weren’t joking about this phone’s durability. An iPhone deserves to be used without a case with the attention to detail they put… but I have apple care so that’s mainly why I’m willing to take that risk.</text>
+		<aspectTerms>
+			<aspectTerm from="67" polarity="neutral" term="screen protector" to="83"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Serious question, can I literally just wash this in the sink? I did wash my W501’s lift-out keyboard in the sink.  Dried it with a hair dryer. Looks good, works great. Cool if you don’t mind dragging an anchor around.</text>
+		<aspectTerms>
+			<aspectTerm from="203" polarity="neutral" term="anchor" to="209"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>How long do you guys wear your headphones and listen to music? Why can't we have meets like this where I live :/. "How are those HD6xx treatin ya?" *takes sip of bourbon</text>
+		<aspectTerms>
+			<aspectTerm from="129" polarity="neutral" term="HD6xx" to="134"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Reinstalling Windows on a M.2 SSD? AFAIK the m.2 slot in the W541 is SATA, just like the 2.5-inch bay. So there's no performance advantage to using the m.2 slot.</text>
+		<aspectTerms>
+			<aspectTerm from="45" polarity="negative" term="m.2 slot" to="53"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>r/headphones Shopping, Setup, and Technical Help Desk Maybe. The E10K is technically only rated for 150 ohms but that's not really a hard limit. The K5 Pro is a general upgrade in terms of power, features, and power supply. Get one from a seller with good return policies and try it out for yourself.</text>
+		<aspectTerms>
+			<aspectTerm from="189" polarity="positive" term="power" to="194"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Impressions of all the IEMs and headphones I heard at CanJam Singapore 2022. There's any estimated time of arrival for the Subtonic STORM and retail price?</text>
+		<aspectTerms>
+			<aspectTerm from="123" polarity="neutral" term="Subtonic STORM" to="137"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Heads up to anyone thinking of buying an X1 carbon since gen 9 I don't have this problem with my gen 9</text>
+		<aspectTerms>
+			<aspectTerm from="41" polarity="neutral" term="X1 carbon since gen 9" to="62"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>water damaged macbook :( Leave it at least 48/72 hours but I would definitely get a professional to assess the damage.</text>
+		<aspectTerms>
+			<aspectTerm from="14" polarity="neutral" term="macbook" to="21"/>
+		</aspectTerms>
+	</sentence>
+</sentences>

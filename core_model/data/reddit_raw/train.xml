@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sentences>
+	<sentence>
+		<text>Magic Keyboard 12.9 Key replacement I tried . It is out of stock. Appreciate your help</text>
+		<aspectTerms>
+			<aspectTerm from="20" polarity="neutral" term="Key replacement" to="35"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What is a decent relaxing game to play on playstation? Firewatch is pretty chill loose story etc.</text>
+		<aspectTerms>
+			<aspectTerm from="55" polarity="positive" term="Firewatch" to="64"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. What’s your battery health</text>
+		<aspectTerms>
+			<aspectTerm from="122" polarity="neutral" term="battery" to="129"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Serious question, can I literally just wash this in the sink? I did wash my W500’s lift-out keyboard in the sink.  Dried it with a hair dryer. Looks good, works great. Cool if you don’t mind dragging an anchor around.</text>
+		<aspectTerms>
+			<aspectTerm from="92" polarity="positive" term="keyboard" to="100"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Will this ThinkVision P27u-20 (Thunderbolt 4) work with T480 (Thunderbolt 4)? Thanks. did you buy directly from sandisk or actually from marketplace?</text>
+		<aspectTerms>
+			<aspectTerm from="137" polarity="neutral" term="marketplace" to="148"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What older games do you hope to be available under the new PS Plus when it eventually arrives? Stranded Deep. Nothing better than a nice day on the beach..if you just want relaxing you can turn on the setting to remove the sharks. Though even with the sharks on it’s still very relaxing to play.</text>
+		<aspectTerms>
+			<aspectTerm from="5" polarity="neutral" term="older games" to="16"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. 11 month? The 13 Pro has been out for just under 7 months. But yeah battery life is great on the 13 Pro and I’ve had mine since launch consistently get all day battery and sometimes a bit more. It’s great not having to get the unwieldy Max while the Pro is still exceptional.</text>
+		<aspectTerms>
+			<aspectTerm from="178" polarity="positive" term="battery life" to="190"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. Damn ur on it way more than me sick battery life</text>
+		<aspectTerms>
+			<aspectTerm from="145" polarity="negative" term=" battery" to="153"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Does anyone know where to get this case please ? (even reverse Google images search can’t) Saw them on Shein</text>
+		<aspectTerms>
+			<aspectTerm from="63" polarity="neutral" term="Google images search" to="83"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Will this ThinkVision P27u-20 (Thunderbolt 4) work with T480 (Thunderbolt 3)? Thanks. Yeah…</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="neutral" term="Thunderbolt 4" to="44"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>my laptop doesn't work. when I start up today,it turns blue screen.only cursor can move,anybody know how to fix it? There’s many questions to your question…Does this happen after the OS is loaded or before?Do you see the windows logo on screen or manufacturer?Can you go into BIOS?Does this happen right after you login?Have you tried clicking CTRL+SHIFT+ESC if TskManager shows up?</text>
+		<aspectTerms>
+			<aspectTerm from="55" polarity="neutral" term="blue screen" to="66"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What are your most regretful headphone/earphone purchase, and your most pleasantly surprising, and why? There's any estimated time of arrival for the Subtonic STORM and retail price?</text>
+		<aspectTerms>
+			<aspectTerm from="150" polarity="neutral" term="Subtonic STORM" to="164"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? The 13 Pro has a very comfortable size, I love the ergonomics of the 6.1 inch size. However, I would recommend the 13 Pro Max though because of the better battery life. 13 Pro's battery life isn't bad but there is a gap/difference, especially if you are a heavy user/use the phone a lot.   13 Pro is a 1 day usage phone for heavy users, I think. From what I see people post in terms of screenshots about battery life, the  13 Pro Max can coast into the second day with no problems.   I like the 13 Pro's size, but as someone else in the thread said, I kind of wish I went for the 13 Pro Max just because I feel that it would fit my usage habits more. The battery life is fine, considering the size, but I do envy the 15 Pro Max users' battery longevity at times.</text>
+		<aspectTerms>
+			<aspectTerm from="351" polarity="neutral" term="heavy users" to="362"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? I think the same music hits you differently depending on your mood.</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="neutral" term="gears" to="26"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Do I need 16gb ram on the M1 MacBook Air? If you take things seriously enough…</text>
+		<aspectTerms>
+			<aspectTerm from="10" polarity="neutral" term="16gb ram" to="18"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Im only watching YouTube, how to fix this? It happens to me all the time. I tried uninstalling some apps which dont use and it helped me. It seemed some were using ram in background</text>
+		<aspectTerms>
+			<aspectTerm from="17" polarity="neutral" term="YouTube" to="24"/>
+			<aspectTerm from="100" polarity="positive" term="apps" to="104"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>in love with this little fella, x240 with linux on it :') it has 4gb, and in my use case I always have around 2gb to spare, gotta love linux :')</text>
+		<aspectTerms>
+			<aspectTerm from="42" polarity="positive" term="linux" to="47"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Advice I think it’s a good app to start with. It has a lot of features and the app itself is free though it has a subscription plan, so I’d recommend checking it out</text>
+		<aspectTerms>
+			<aspectTerm from="27" polarity="positive" term="app" to="30"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Why were old iPad box designs so weird and unintuitive? Prestige? Just cause they can? What aspect of it? I like the ritual of holding the lid still while the bottom slowly slides out cause it’s such a tight fit. Sorta reminds me of Darth Vader taking his helmet off in the steamy pod thing. Is it the minimal graphics? I.e not covered in writing and specs like gaming mouse packaging?</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="negative" term="box designs" to="29"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Is my battery okay? I think it runs out quickly. The condition of the battery is 99% 20% on about 7 hours SoT? That’s solid stuff</text>
+		<aspectTerms>
+			<aspectTerm from="6" polarity="negative" term="battery" to="13"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Advice I’ll be honest: video editing is still something best left for desktop systems. LumaFusion is a fine app, but it still pales in comparison to what you can find on macOS or Windows.</text>
+		<aspectTerms>
+			<aspectTerm from="23" polarity="positive" term="video editing" to="36"/>
+			<aspectTerm from="87" polarity="neutral" term="LumaFusion" to="97"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? Suggest me some music to get high with</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="neutral" term="gears" to="26"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? Why can't we have meets like this where I live :/. "How are those HD6xx treatin ya?" *takes sip of bourbon</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="neutral" term="gears" to="26"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Macbook Air 13 or Macbook Pro 15? I would get the Air due to SSD capacity. It is a powerful little machine that will get the job done for a long time. It is absolutely silent, with great battery capacity. MB Pro would be a waste of money, since you need more space anyway. The difference in performance is not that big.However, please note that MacBooks are not gaming machines. While they can certainly run some games, your son would be better with a console instead.</text>
+		<aspectTerms>
+			<aspectTerm from="259" polarity="negative" term="space" to="264"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>W520: Is there Windows 10 drivers available for the trackpad? Lenovo had drivers for the x220 so not sure why they wouldn’t for the w520.  Have you tried the windows 8 driver?</text>
+		<aspectTerms>
+			<aspectTerm from="52" polarity="neutral" term="trackpad" to="60"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>"Cannot download because there is not enough free space" For update problems: The way Sony sets it up is that to download an update the PS has to recopy the entire game with patch, it just doesn’t add the update, that’s why it needs the space for the whole game + update + some extra (between 20 to 50% of game size)</text>
+		<aspectTerms>
+			<aspectTerm from="61" polarity="neutral" term="update problems" to="76"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>help! witch one would you choose for 4k heavy editing sony a7iii  i appreciate the input brother, i dot see how anyone could realy know. fuck is allot of money to sped ad so many options ! i only have these optios available from the store that will give me credit, and my budget xD  such a pain ! thankyou again</text>
+		<aspectTerms>
+			<aspectTerm from="83" polarity="positive" term="input" to="88"/>
+			<aspectTerm from="257" polarity="positive" term="credit" to="263"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Cheaper Fujifilm X100 alternatives How much are used X100's selling for, where you are?</text>
+		<aspectTerms>
+			<aspectTerm from="8" polarity="neutral" term="Fujifilm" to="16"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>HEY PHOTOGRAPHERS/VIDEOGRAPHERS! Should I buy an Iphone14 Pro? My 13 Pro is the first iPhone camera I've been frustrated with. Actually, the camera is probably fine. It's the software that bugs me. When I ask for the '3x' zoom lens, I want to take a picture with that lens. Half the time, the software decides to use a different lens and digital zoom into it. The results are awful, I think. I don't remember these problems on my old 13 Pro Max.</text>
+		<aspectTerms>
+			<aspectTerm from="175" polarity="negative" term="software" to="183"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Looking for my first camera No worries. Don't be afraid to buy lightly used gear as it will save you money that you can put towards nicer lenses.</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="neutral" term="camera" to="27"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>T430 keyboard / power button issue you can 100% turn the laptop on with no keyboard connected, it's safe. There's actually some contact on the T430 motherboard which you can short to turn the machine on. If you didn't want to replace your keyboard, you could diy some kind of solution as long as you're comfortable with basic soldering</text>
+		<aspectTerms>
+			<aspectTerm from="5" polarity="neutral" term="keyboard" to="13"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Advice VN Video Editor, it's completely free and fully featured with no extra purchases. I use it to make videos for my YouTube channel and it's pretty great! It has green screen support, multiple tracks, really good filters, and a basic built-in audio editor. Here's a tutorial if you're interested, he's using the iPad app, which is at par with the Mac version of VN.  https://www.youtube.com/watch?v=yb7-ab-6MO8 list=LL index=2 t=400s</text>
+		<aspectTerms>
+			<aspectTerm from="106" polarity="positive" term="videos" to="112"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My favorite of my film cameras ive got one with the planar, and it is my actual baby</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="neutral" term="film cameras" to="30"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? Sounds great. Has a strong mid-bass but doesn't affect the mids.</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="neutral" term="gears" to="26"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Macbook Air 13 or Macbook Pro 13? They’re as good as new macs. I’ve only ever bought two new products (excluding iPhones) from apple in the 16 years I’ve been using apple products.</text>
+		<aspectTerms>
+			<aspectTerm from="93" polarity="positive" term="products" to="101"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Want to join an active, fun, friendly community? Click the link/button below to become one of our members and add your own special shine to the server! We aren’t called ‘Zen Gaming Dojo’ for no reason. Ps: We have rooms for anime, arts and other great thingswink Journey, Ico, and The Last Guardian.  I also would include Hollow Knight, but stay away from any boss fights before bed.</text>
+		<aspectTerms>
+			<aspectTerm from="263" polarity="positive" term="Journey" to="270"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What is a decent relaxing game to play on playstation? Car mechanic simulator. It’s very calming once you get the hang of it.</text>
+		<aspectTerms>
+			<aspectTerm from="55" polarity="positive" term="Car mechanic simulator" to="77"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>r/headphones Shopping, Setup, and Technical Help Desk Maybe. The E10K is technically only rated for 150 ohms but that's not really a hard limit. The K6 Pro is a general upgrade in terms of power, features, and power supply. Get one from a seller with good return policies and try it out for yourself.</text>
+		<aspectTerms>
+			<aspectTerm from="196" polarity="positive" term="features" to="204"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Macbook Air 13 or Macbook Pro 13? Thank you so much! Do you have any insight in regards to the refurbished models from the official Apple website?</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="neutral" term="Macbook Pro 13" to="32"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What is a decent relaxing game to play on playstation? Journey, Ico, and The Last Guardian.  I also would include Hollow Knight, but stay away from any boss fights before bed.</text>
+		<aspectTerms>
+			<aspectTerm from="55" polarity="positive" term="Journey" to="62"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Type-C charger for X230 the usb-c mod is pretty nice, but it's definitely a compromise when it means you have to give up on the trusty old barrelplug. I think the ugreen 100w gan charger is one of the best chargers around. for something even smaller the ugreen 65w or the anker nano II 65 are also great, but they  might struggle to power your x230 and another device at the same time</text>
+		<aspectTerms>
+			<aspectTerm from="28" polarity="neutral" term="usb-c mod" to="37"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What season is best to shoot star-timelapse like these? Depends on where you live, if you're in the northern hemisphere, definitely. August's full moon usually means goodbye to the milky way season.Also use an app like SkyMap, it'll tell you in which direction you can find interesting objects in the sky or where to look for the milky way. If there is light pollution it's hard to find it using your bare eyes</text>
+		<aspectTerms>
+			<aspectTerm from="29" polarity="neutral" term="star-timelapse" to="43"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My favorite of my film cameras It's the Rolleiflex 3,5 C.With the Zeiss Planar 3,5/75: 26000 pieces from Oft. 1956 to Feb. 1959.With the Schneider Xenotar 3,5/75: 17000 pieces from Apr. 1957 to Feb. 1959.There was a variant with and without lightmeter.The schütter was a Syncro-Compur MX/CR00.The Prince was 657 DM with the Paar and 550 DM with the Xenotar.The film was 6x6.Any questions?</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="neutral" term="film cameras" to="30"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Intel's ME vs AMD's PSP What companies would you trust, when it comes to hidden spying software/hardware in their products (laptops, computers, phones)?</text>
+		<aspectTerms>
+			<aspectTerm from="87" polarity="neutral" term="software" to="95"/>
+			<aspectTerm from="96" polarity="neutral" term="hardware" to="104"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I need help picking a new MacBook I found an open box Air at best buy but it’s the 10th gen i5 version and it has 16 GB ram, worth the purchase?? They want 999 for it. But can’t get Apple care for some reason.</text>
+		<aspectTerms>
+			<aspectTerm from="54" polarity="positive" term="Air" to="57"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? You will notice the added weight and chonkiness much more than a slightly reduced screen size</text>
+		<aspectTerms>
+			<aspectTerm from="53" polarity="negative" term="weight" to="59"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Im only watching YouTube, how to fix this? I just checked the stats, could the problem be that im running old software? I didnt update it in a long time!</text>
+		<aspectTerms>
+			<aspectTerm from="17" polarity="neutral" term="YouTube" to="24"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? I really enjoy Pink Floyd.  If you are into it Animal Collective is one of my other favorites.</text>
+		<aspectTerms>
+			<aspectTerm from="94" polarity="positive" term="Pink Floyd" to="104"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>How long do you guys wear your headphones and listen to music? Not very long, mostly about an hour or two at one time.Mainly listen while traveling so I don't actually use it a lot</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="neutral" term="headphones" to="41"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Will this ThinkVision P27u-20 (Thunderbolt 4) work with T480 (Thunderbolt 3)? Thanks. did you buy directly from sandisk or actually from marketplace?</text>
+		<aspectTerms>
+			<aspectTerm from="112" polarity="neutral" term="sandisk" to="119"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Macbook Air 13 or Macbook Pro 14? I would get the Air due to SSD capacity. It is a powerful little machine that will get the job done for a long time. It is absolutely silent, with great battery capacity. MB Pro would be a waste of money, since you need more space anyway. The difference in performance is not that big.However, please note that MacBooks are not gaming machines. While they can certainly run some games, your son would be better with a console instead.</text>
+		<aspectTerms>
+			<aspectTerm from="187" polarity="positive" term="battery" to="194"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Macbook Air 13 or Macbook Pro 16? I would get the Air due to SSD capacity. It is a powerful little machine that will get the job done for a long time. It is absolutely silent, with great battery capacity. MB Pro would be a waste of money, since you need more space anyway. The difference in performance is not that big.However, please note that MacBooks are not gaming machines. While they can certainly run some games, your son would be better with a console instead.</text>
+		<aspectTerms>
+			<aspectTerm from="413" polarity="neutral" term="games" to="418"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Advice VN Video Editor, it's completely free and fully featured with no extra purchases. I use it to make videos for my YouTube channel and it's pretty great! It has green screen support, multiple tracks, really good filters, and a basic built-in audio editor. Here's a tutorial if you're interested, he's using the iPad app, which is at par with the Mac version of VN.  https://www.youtube.com/watch?v=yb7-ab-6MO8 list=LL index=2 t=401s</text>
+		<aspectTerms>
+			<aspectTerm from="172" polarity="positive" term="screen support" to="186"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T440P SD card speeds. probably they sent to you lower class card</text>
+		<aspectTerms>
+			<aspectTerm from="15" polarity="neutral" term="SD card" to="22"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>How long do you guys wear your headphones and listen to music? I’ve gone only a few minutes, I’ve gone a few hours. Depends on my mood.</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="neutral" term="headphones" to="41"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. What did you do in your settings to make that happen? Share your wisdom hahahaha</text>
+		<aspectTerms>
+			<aspectTerm from="67" polarity="positive" term="SoT" to="70"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>dunu titan s or just shouty ( forward ) iems in general EQ. There's no such thing as an IEM that is good for one type of vocals or not another. It just has a flaw that may bother you with some styles less than others so you are trying to work around it. Or you can just EQ it to how you think it should sound.</text>
+		<aspectTerms>
+			<aspectTerm from="88" polarity="positive" term="IEM" to="91"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>water damaged macbook :( I would certainly get the laptop looked at by an independant professional - staff at the Apple store are generally morons in this regard.</text>
+		<aspectTerms>
+			<aspectTerm from="14" polarity="neutral" term="macbook" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>audio technica ath may not be suitable for people outside Asian.most of their products are very light (I mean have a lot of high frequency.... sorry I am not a native English speaker)if you want to try ath, I recommend you to choose r70x m51x(they are designed for studio could be acceptable by more peopletrust me i am a faithful fan of ath and have many ath headphones.</text>
+		<aspectTerms>
+			<aspectTerm from="78" polarity="neutral" term="products" to="86"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>just one cable more and I'm done with IEMs (for 2022) Haha yerp but I really think with the hifiman and probably the topping dx3 pro I'm done for real. I'm going to save money after that. I have to...</text>
+		<aspectTerms>
+			<aspectTerm from="38" polarity="neutral" term="IEMs" to="42"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I just got my IPad pro 11 and Im going to use it 60% for notetaking. Already have Mac Pro. Is Paperlike and Logitech Toch enough protection? Don’t buy the original paperlike protection!! It’s a waste of money and there are better and cheaper solutions available. All paperlike reviews on YouTube are sponsored!!!I have these from Amazon. 2 protectors for Euro 6,53TECHGEAR [2-pack] Anti-glare Screen Protectors for iPad Pro 11, iPad air 4 10.9 2020, Matte Screen Protector Guard Compatible with Apple Pencil   iPad Pro 11 2021/3e generation, 2020/2e generation   2018</text>
+		<aspectTerms>
+			<aspectTerm from="164" polarity="negative" term="paperlike protection" to="184"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Problem with footage, does anyone know how to fix this color issue? It might be the HDR</text>
+		<aspectTerms>
+			<aspectTerm from="13" polarity="neutral" term="footage" to="20"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Type-C charger for X231 the usb-c mod is pretty nice, but it's definitely a compromise when it means you have to give up on the trusty old barrelplug. I think the ugreen 100w gan charger is one of the best chargers around. for something even smaller the ugreen 65w or the anker nano II 65 are also great, but they  might struggle to power your x231 and another device at the same time</text>
+		<aspectTerms>
+			<aspectTerm from="175" polarity="positive" term="gan charger" to="186"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Y’all be taking notes in portrait or landscape? When I first got my iPad, I was taking notes in portrait. I then realized that taking notes in landscape was so much better, so I’ve been doing it in landscape and still do to this day.</text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="positive" term="notes" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Y’all be taking notes in portrait or landscape? Landscape split-screen >>></text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="neutral" term="notes" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Im only watching YouTube, how to fix this? 2020 13inch Mac Pro, 1,4ghz quad core intel core i5, 8gb memory Version 10.15.7 </text>
+		<aspectTerms>
+			<aspectTerm from="17" polarity="neutral" term="YouTube" to="24"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Swipe-up gesture to go to home screen no longer working when I am in any application. Is it working now? Because I just purchased an Air 5th gen last week and now I’m experiencing this issue, and it’s so annoying. It’s not even swiping up to go home, scrolling is laggy and slow and doesn’t respond to my touch. It’s driving me nuts!!</text>
+		<aspectTerms>
+			<aspectTerm from="26" polarity="negative" term="home" to="30"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Is the Sanyo-E2100 still good in 2022? Define good</text>
+		<aspectTerms>
+			<aspectTerm from="7" polarity="positive" term="Sanyo-E2100" to="18"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Macbook Air 13 or Macbook Pro 13? I would get the Air due to SSD capacity. It is a powerful little machine that will get the job done for a long time. It is absolutely silent, with great battery capacity. MB Pro would be a waste of money, since you need more space anyway. The difference in performance is not that big.However, please note that MacBooks are not gaming machines. While they can certainly run some games, your son would be better with a console instead.</text>
+		<aspectTerms>
+			<aspectTerm from="7" polarity="positive" term=" Air" to="11"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.1. That should not be normal i guess? Anyone else experiencing this? My 2016 and 2018 definitely don’t do this. But if you peak your brightness etc it’ll drain quick sometimes depending on what you’re doing</text>
+		<aspectTerms>
+			<aspectTerm from="7" polarity="neutral" term="battery" to="14"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Another custom painted 6XX post, this time Nardo Grey. Having access to a full paint line and spray booth gives some pretty good results. I just painted my own set green! I think green works really well with these headphones</text>
+		<aspectTerms>
+			<aspectTerm from="214" polarity="positive" term="headphones" to="224"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. You have 7 days with more than 100% battery usage. Sot only really matters when only changed once.</text>
+		<aspectTerms>
+			<aspectTerm from="146" polarity="positive" term="battery" to="153"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Is the Sanyo-E2100 still good in 2022? Like good photo quality or something, better then or equal to an iPhone or Samsung camera</text>
+		<aspectTerms>
+			<aspectTerm from="49" polarity="positive" term="photo quality" to="62"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Im only watching YouTube, how to fix this? It is possible. Newer versions often come with fixes. Then again, they can also come with new bugs, so it’s up to you whether this message is annoying enough for you to risk it.</text>
+		<aspectTerms>
+			<aspectTerm from="59" polarity="neutral" term="Newer versions" to="73"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Are you using a case with your phone? I’ve been doing no case with screen protector for 7 months now and it’s definitely not in near-perfect condition lol but it’s pretty close to it. The stainless steel edges on the backside has a few nicks from drops on concrete (one of my camera edges took a hit too). Other than that all the glass material is in pristine condition… They weren’t joking about this phone’s durability. An iPhone deserves to be used without a case with the attention to detail they put… but I have apple care so that’s mainly why I’m willing to take that risk.</text>
+		<aspectTerms>
+			<aspectTerm from="410" polarity="positive" term="durability" to="420"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T440P SD card speeds. I bought directly from Amazon de</text>
+		<aspectTerms>
+			<aspectTerm from="15" polarity="neutral" term="SD card" to="22"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Paperlike after only a few days I use this magnetic one on top of my tempered glass. Since it's magnetic I can remove it as frequently as I'd like, clean it off and reapply it!</text>
+		<aspectTerms>
+			<aspectTerm from="78" polarity="positive" term="glass" to="83"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>MacBook 4,1 raised from the deads with Windows 12, even getting updates ! Exactly. I updated the MacOS version to El Capitan too but it was indeed too laggy without 3D acceleration. I ended by using Mountain Lion with the Lion graphical drivers which works kinda well, and dual booting with W12. I tried Fedora and Ubuntu but the performance and drivers were not that great compared to osX and Windows. Maybe something lighter could work better. Funny to see this old mac ending with the "big evil competitor" solution ! The bad longevity of MacBooks has always retained me to buy them, we never know when support will be dropped. Hopefully on windows you can run whatever you want as long as the device can handle it.</text>
+		<aspectTerms>
+			<aspectTerm from="529" polarity="negative" term="longevity" to="538"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T441P SD card speeds. mate look on ebay you can find lots of x230 and t430 machines sold for cheap, even some t440 models if you're lucky. sometimes they might be listed as "spares or repairs" but 91% of the time if you're even a little bit techy you can get them fixed up and working, just check the description. Alternatively check your local gumtree and facebook marketplace, people often sell machines for cheap or even just give them away because "they're so old"</text>
+		<aspectTerms>
+			<aspectTerm from="310" polarity="neutral" term="description" to="321"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? EQ. There's no such thing as an IEM that is good for one type of vocals or not another. It just has a flaw that may bother you with some styles less than others so you are trying to work around it. Or you can just EQ it to how you think it should sound.</text>
+		<aspectTerms>
+			<aspectTerm from="111" polarity="positive" term="IEM" to="114"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>How long do you guys wear your headphones and listen to music? You will have problems only if you listen too loud.</text>
+		<aspectTerms>
+			<aspectTerm from="31" polarity="neutral" term="headphones" to="41"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? If you have any other device for multimedia consumption, laptop or iPad, then the 13 Pro. If the phone will be your primary media consumption device, 13 Pro Max. I personally prefer 13 Pro. Would be happier if it was 5.8” like the X instead of 6.1” too - but that’s because my multimedia consumption happens on my iPad.</text>
+		<aspectTerms>
+			<aspectTerm from="65" polarity="neutral" term="media" to="70"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>in love with this little fella, x240 with linux on it :') also was thinking in getting an ips panel, but the overall feel is pretty good for a ~130 dollars machine</text>
+		<aspectTerms>
+			<aspectTerm from="90" polarity="positive" term="ips panel" to="99"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Y’all be taking notes in portrait or landscape? lanscape!</text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="neutral" term="notes" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.1. That should not be normal i guess? Anyone else experiencing this? I think it might have something to do with whether the "Share iPad Analytics" option is enabled or not (some commenter on the thread had the same issue). Of course, if you don’t want to enable that, then this is not an option.</text>
+		<aspectTerms>
+			<aspectTerm from="7" polarity="neutral" term="battery" to="14"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Y’all be taking notes in portrait or landscape? Portrait if I’m holding it, landscape if it’s flat on a surface</text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="neutral" term="notes" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Is the Sanyo-E2100 still good in 2022? No. Not as good as an iPhone.</text>
+		<aspectTerms>
+			<aspectTerm from="7" polarity="negative" term="Sanyo-E2100" to="18"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My family uses Macs and I can confirm this is true I run Arch as well. For example, a frequent struggle on Arch based systems is plugging in an external display and it simply not working. Setting up your own DE and customizing it isn't exactly streamlined either. A kitchen sink distro is plenty streamlined if you know how to use Linux, but unfortunately (in my experience) no distro is at the point that a lack of troubleshooting stuff in terminal can be guaranteed.</text>
+		<aspectTerms>
+			<aspectTerm from="112" polarity="negative" term="based systems" to="125"/>
+			<aspectTerm from="279" polarity="negative" term="distro" to="285"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. Legit no different at all. Everything including ProMotion is on.</text>
+		<aspectTerms>
+			<aspectTerm from="158" polarity="neutral" term="ProMotion" to="167"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Y’all be taking notes in portrait or landscape? Second this! Procreate sparked my long forgotten passion and skill for drawing. Worth all the money and then some</text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="neutral" term="notes" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? The 13 Pro has a very comfortable size, I love the ergonomics of the 6.1 inch size. However, I would recommend the 13 Pro Max though because of the better battery life. 13 Pro's battery life isn't bad but there is a gap/difference, especially if you are a heavy user/use the phone a lot.   13 Pro is a 1 day usage phone for heavy users, I think. From what I see people post in terms of screenshots about battery life, the  13 Pro Max can coast into the second day with no problems.   I like the 13 Pro's size, but as someone else in the thread said, I kind of wish I went for the 13 Pro Max just because I feel that it would fit my usage habits more. The battery life is fine, considering the size, but I do envy the 13 Pro Max users' battery longevity at times.</text>
+		<aspectTerms>
+			<aspectTerm from="60" polarity="positive" term=" size" to="65"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>KZ gets exposed for putting decorative drivers in their iems, Crinacle CRN is a single DD iem appearantly I use a KZ DQ6. I feel so hurt by their manipulative marketing. I've always wanted a multi-driver pair of earphones. And now i know that the one i have is just a 1DD earphone just like any other. But i like the sound quality tho. </text>
+		<aspectTerms>
+			<aspectTerm from="114" polarity="negative" term="KZ DQ6" to="120"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Dyson Zone, Noise cancelling, air purifying, but how do they sound. I have no idea... I'm not sure exactly what changed in the 4, it says CADR of 400 vs 380 on the 3H so really very little difference. CADR is the speed it cleans at (Clean Air Delivery Rate in cubic feet / minute). Either of those numbers is good for a room of up to 40sqm or so.At root all of these purifiers just draw air through a filter with a fan and they all use the same design filter so they all work more or less equivalently, the old ones work more or less the same as the new ones. The Xiaomi filter design is good and it's readily available and inexpensive for replacements, which is a key thing when buying a purifier, some brands it can be very difficult and expensive to replace the filter.To be honest the air in the US rarely gets bad enough you'd actually need a purifier. Maybe a few days a year. It's a totally different scale. Here IMO it's non-negotiable for your health, if you live here, you need one because there is going to be maybe ~100 days a year at least you are going to want to run it. Equivalent in a US city might be, 1 or 2. The air is particularly clean in the US, since the EPA in the 70s. It's much much cleaner than Europe, never mind Asia. At the same time, if you have moderate pollution, if you have a purifier you can just run it on low speed (which will also be quiet) and get the air totally clean, which is better for your health.</text>
+		<aspectTerms>
+			<aspectTerm from="138" polarity="neutral" term="CADR" to="142"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>help! witch one would you choose for 4k heavy editing sony a7iii  If I had to choose, I would go for the RAM. Especially for heavy work more RAM is always better and you would be less reliant on memory swap.Sure the M1 does a pretty good job using the fast SSD for memory swap so you should benefit from more core (especially when using effects). But keep in mind that every core does need a certain amount of memory . The more cores you have, the more they can benefit from more RAM.But to state the obvious.. neither one is a bad choice and will get the job done. ;)</text>
+		<aspectTerms>
+			<aspectTerm from="105" polarity="positive" term="RAM" to="108"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>just one cable more and I'm done with IEMs (for 2022) Still a lot of time left in 2022… just sayin’</text>
+		<aspectTerms>
+			<aspectTerm from="38" polarity="neutral" term="IEMs" to="42"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>HEY PHOTOGRAPHERS/VIDEOGRAPHERS! Should I buy an Iphone13 Pro? My 13 Pro is the first iPhone camera I've been frustrated with. Actually, the camera is probably fine. It's the software that bugs me. When I ask for the '3x' zoom lens, I want to take a picture with that lens. Half the time, the software decides to use a different lens and digital zoom into it. The results are awful, I think. I don't remember these problems on my old 12 Pro Max.</text>
+		<aspectTerms>
+			<aspectTerm from="86" polarity="negative" term="iPhone camera" to="99"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.1. That should not be normal i guess? Anyone else experiencing this? It‘s not kaputt, mine did the same shit until the recent update. It even used to lose 30% charge over night without doin anything, not even charging the pencil. But yeah, not the issue seems fixed, but no idea why yours does it, the only thing I know is, it‘s a software issue</text>
+		<aspectTerms>
+			<aspectTerm from="7" polarity="neutral" term="battery" to="14"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Do I need 16gb ram on the M1 MacBook Air? Leave it at least 48/72 hours but I would definitely get a professional to assess the damage.</text>
+		<aspectTerms>
+			<aspectTerm from="10" polarity="negative" term="16gb ram" to="18"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? The 13 Pro has a very comfortable size, I love the ergonomics of the 6.1 inch size. However, I would recommend the 13 Pro Max though because of the better battery life. 13 Pro's battery life isn't bad but there is a gap/difference, especially if you are a heavy user/use the phone a lot.   13 Pro is a 1 day usage phone for heavy users, I think. From what I see people post in terms of screenshots about battery life, the  13 Pro Max can coast into the second day with no problems.   I like the 13 Pro's size, but as someone else in the thread said, I kind of wish I went for the 13 Pro Max just because I feel that it would fit my usage habits more. The battery life is fine, considering the size, but I do envy the 14 Pro Max users' battery longevity at times.</text>
+		<aspectTerms>
+			<aspectTerm from="182" polarity="positive" term="battery" to="189"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Taken on my 13 pro at my wedding last weekend Greens and yellows are desaturated imo</text>
+		<aspectTerms>
+			<aspectTerm from="46" polarity="negative" term="Greens" to="52"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Horrible camera I agree. Although I think the camera is probably fine, it's the software that is making bad decisions. The AI is not great in many situations, and it interferes with my directions. My typical use case is video of scenery through a light aircraft window. The 12 Pro Max I had before handled this very well. The 13 Pro I have now almost always stops down to the wide camera and digital zooms. I can also been 50/50 whether you get the zoom lens, or one of the wide's. The results are much worse than from the 14 Pro Max.Macro seems hit or miss as well.Apple need to fix this. It's the first iPhone I've ever felt disappointed with.</text>
+		<aspectTerms>
+			<aspectTerm from="123" polarity="negative" term="AI" to="125"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>in love with this little fella, x240 with linux on it :') battery wise it's been really good for my use case, even though the battery isn't new (obviously)</text>
+		<aspectTerms>
+			<aspectTerm from="58" polarity="positive" term="battery" to="65"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Heads up to anyone thinking of buying an X1 carbon since gen 9 as hard as it would first be, im off to apple, macbook pro and probably the entire ecosystem later on</text>
+		<aspectTerms>
+			<aspectTerm from="139" polarity="negative" term="entire ecosystem" to="155"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Horrible camera I agree. Although I think the camera is probably fine, it's the software that is making bad decisions. The AI is not great in many situations, and it interferes with my directions. My typical use case is video of scenery through a light aircraft window. The 12 Pro Max I had before handled this very well. The 13 Pro I have now almost always stops down to the wide camera and digital zooms. I can also been 50/50 whether you get the zoom lens, or one of the wide's. The results are much worse than from the 13 Pro Max.Macro seems hit or miss as well.Apple need to fix this. It's the first iPhone I've ever felt disappointed with.</text>
+		<aspectTerms>
+			<aspectTerm from="80" polarity="negative" term="software" to="88"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What season is best to shoot star-timelapse like these? This is the longest video I’ve ever seen in my life.</text>
+		<aspectTerms>
+			<aspectTerm from="29" polarity="neutral" term="star-timelapse" to="43"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Horrible camera I agree. Although I think the camera is probably fine, it's the software that is making bad decisions. The AI is not great in many situations, and it interferes with my directions. My typical use case is video of scenery through a light aircraft window. The 12 Pro Max I had before handled this very well. The 13 Pro I have now almost always stops down to the wide camera and digital zooms. I can also been 50/50 whether you get the zoom lens, or one of the wide's. The results are much worse than from the 12 Pro Max.Macro seems hit or miss as well.Apple need to fix this. It's the first iPhone I've ever felt disappointed with.</text>
+		<aspectTerms>
+			<aspectTerm from="9" polarity="neutral" term="camera" to="15"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I don’t know if this the right place to ask if not any suggestions on the place would be appreciable. Which country you live in and when did you buy the machine check the consumer protection law of your country</text>
+		<aspectTerms>
+			<aspectTerm from="171" polarity="neutral" term="consumer protection law" to="194"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My favorite of my film cameras My favorite as well.</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="positive" term="film cameras" to="30"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Do I need 16gb ram on the M1 MacBook Air? With that mindset a raspberry pi might even be enough.</text>
+		<aspectTerms>
+			<aspectTerm from="10" polarity="neutral" term="16gb ram" to="18"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>r/headphones Shopping, Setup, and Technical Help Desk Suggest me some music to get high with</text>
+		<aspectTerms>
+			<aspectTerm from="2" polarity="neutral" term="headphones" to="12"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>I just got my IPad pro 11 and Im going to use it 60% for notetaking. Already have Mac Pro. Is Paperlike and Logitech Toch enough protection? I can second this. Paperlike is just a severely overpriced matte screen protector with a lot of YouTube sponsors. You can find significantly cheaper ones on Amazon.</text>
+		<aspectTerms>
+			<aspectTerm from="206" polarity="negative" term="screen protector" to="222"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What season is best to shoot star-timelapse like these? I’ve just looked skymap up and i don’t think it’s available on the App store but it is on google play</text>
+		<aspectTerms>
+			<aspectTerm from="29" polarity="neutral" term="star-timelapse" to="43"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What is a decent relaxing game to play on playstation? Steep and Rider Republic are kinda relaxing if you like and play skateboarding on snow</text>
+		<aspectTerms>
+			<aspectTerm from="65" polarity="positive" term="Rider Republic" to="79"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Taken on my 13 pro at my wedding last weekend Used some kind of color pop app to separate that red?</text>
+		<aspectTerms>
+			<aspectTerm from="74" polarity="neutral" term="app " to="78"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Why were old iPad box designs so weird and unintuitive? Prestige? Just cause they can? I think by the time you have the box that pretty much must be true. People don’t buy ipads by looking at the boxes of different tablets in a retail shop like buying a toaster in the 90’s. The box is no part of the decision to buy process at all.It is part of the customer product experience though. So they made it tempting and a little theactrical. Clever Apple.</text>
+		<aspectTerms>
+			<aspectTerm from="18" polarity="positive" term="box" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Taken on my 13 pro at my wedding last weekend Maybe he used some app to desaturate the photo except the car part</text>
+		<aspectTerms>
+			<aspectTerm from="65" polarity="negative" term="app" to="68"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T440P SD card speeds. mate look on ebay you can find lots of x230 and t430 machines sold for cheap, even some t440 models if you're lucky. sometimes they might be listed as "spares or repairs" but 90% of the time if you're even a little bit techy you can get them fixed up and working, just check the description. Alternatively check your local gumtree and facebook marketplace, people often sell machines for cheap or even just give them away because "they're so old"</text>
+		<aspectTerms>
+			<aspectTerm from="119" polarity="positive" term="t440 models" to="130"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>11 month old iPhone 13 Pro on 15.4.1 still getting over 9 hours of SoT consistently over a period of 10 days. Checks username Raises hat to OP. Well played.</text>
+		<aspectTerms>
+			<aspectTerm from="117" polarity="neutral" term="username" to="125"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>water damaged macbook :( yeah i have no plans to turn it on before 48 hours.. but im just scared it wouldnt turn on anymore since the it wouldnt turn on the last time</text>
+		<aspectTerms>
+			<aspectTerm from="14" polarity="neutral" term="macbook" to="21"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>HD820: The hated and misunderstood weirdo headphone No, but I usually end up with more stuff being delivered to my house when I was drunk the day before.</text>
+		<aspectTerms>
+			<aspectTerm from="42" polarity="negative" term="headphone" to="51"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T440P SD card speeds. huh, better return it then.</text>
+		<aspectTerms>
+			<aspectTerm from="15" polarity="negative" term="SD card" to="22"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? Pro is cheaper. And remember to pay a little extra for the 256GB model, but smaller than your S21 FE, if you want larger than go for the Pro Max, PM also has the better battery life and I personally have one. And what color? Pick whatever one suits you, Sierra Blue and Alpine Green look the best though</text>
+		<aspectTerms>
+			<aspectTerm from="245" polarity="neutral" term="color" to="250"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>What season is best to shoot star-timelapse like these? Summer. The subject  will be more comfortable and your battery will last longer.</text>
+		<aspectTerms>
+			<aspectTerm from="68" polarity="positive" term="subject" to="75"/>
+			<aspectTerm from="111" polarity="positive" term="battery" to="118"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Looking for some troubleshooting help... Update.... Yall may laugh at this...I figured I'd try the old Nintendo 64 cartridge method with an air compressor. I shot air into the SD slot on the camera, reinserted the SD card, and now everything is working again....LOL</text>
+		<aspectTerms>
+			<aspectTerm from="176" polarity="neutral" term="SD slot" to="183"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>HD820: The hated and misunderstood weirdo headphone HD-820s are like wearing diamond chains around your neck, they are just for show. These are the headphones you go outside with and pull all the ladies</text>
+		<aspectTerms>
+			<aspectTerm from="52" polarity="positive" term="HD-820s" to="59"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Have you ever tested gears before and after alcohol ? Do they sound different? Try them with weed if you really wanna enjoy themLol</text>
+		<aspectTerms>
+			<aspectTerm from="21" polarity="positive" term="gears" to="26"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Why were old iPad box designs so weird and unintuitive? Prestige? Just cause they can? I think by the time you have the box that pretty much must be true. People don’t buy ipads by looking at the boxes of different tablets in a retail shop like buying a toaster in the 91’s. The box is no part of the decision to buy process at all.It is part of the customer product experience though. So they made it tempting and a little theactrical. Clever Apple.</text>
+		<aspectTerms>
+			<aspectTerm from="359" polarity="neutral" term="product experience" to="377"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T440P SD card speeds. did you buy directly from sandisk or actually from marketplace?</text>
+		<aspectTerms>
+			<aspectTerm from="15" polarity="neutral" term="SD card" to="22"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Macbook Air 13 or Macbook Pro 13? Unfortunately, Apple does not sell refurbished models in my country. But from what I have read over the years, it is a good choice.</text>
+		<aspectTerms>
+			<aspectTerm from="81" polarity="negative" term="models" to="87"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Advice Yeah I saw a post about that app, as good as it looks the ￡35 price tag is abit steep</text>
+		<aspectTerms>
+			<aspectTerm from="36" polarity="positive" term="app" to="39"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>DSLR Really cheap idgaf quality Fisheye lense? For APS-C sensors, the cheapest (and probably worst quality) I've come across is the Rockstar 10mm F/8 pancake.</text>
+		<aspectTerms>
+			<aspectTerm from="24" polarity="positive" term="quality" to="31"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Serious question, can I literally just wash this in the sink? Just buy a replacement as that keyboard will never work correctly again.</text>
+		<aspectTerms>
+			<aspectTerm from="93" polarity="negative" term="keyboard" to="101"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Thinkpad T440P SD card speeds. I checked and it matches the one as in the amazon link.</text>
+		<aspectTerms>
+			<aspectTerm from="15" polarity="neutral" term="SD card" to="22"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>33% of battery gone with about 37 minutes of use? iPad Pro M1 12.9 running newest iPadOS 15.4.2. That should not be normal i guess? Anyone else experiencing this? It‘s not kaputt, mine did the same shit until the recent update. It even used to lose 31% charge over night without doin anything, not even charging the pencil. But yeah, not the issue seems fixed, but no idea why yours does it, the only thing I know is, it‘s a software issue</text>
+		<aspectTerms>
+			<aspectTerm from="425" polarity="neutral" term="software" to="433"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>just one cable more and I'm done with IEMs (for 2022) Not very long, mostly about an hour or two at one time.Mainly listen while traveling so I don't actually use it a lot</text>
+		<aspectTerms>
+			<aspectTerm from="38" polarity="neutral" term="IEMs" to="42"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Type-C charger for X232 the usb-c mod is pretty nice, but it's definitely a compromise when it means you have to give up on the trusty old barrelplug. I think the ugreen 100w gan charger is one of the best chargers around. for something even smaller the ugreen 65w or the anker nano II 65 are also great, but they  might struggle to power your x232 and another device at the same time</text>
+		<aspectTerms>
+			<aspectTerm from="272" polarity="neutral" term="anker nano II 65" to="288"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>Which Iphone should i Get? Pro is cheaper. And remember to pay a little extra for the 256GB model, but smaller than your S20 FE, if you want larger than go for the Pro Max, PM also has the better battery life and I personally have one. And what color? Pick whatever one suits you, Sierra Blue and Alpine Green look the best though</text>
+		<aspectTerms>
+			<aspectTerm from="196" polarity="positive" term="battery" to="203"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>My setup - custom widget, diy wallpaper with my car. :) Looks good.</text>
+		<aspectTerms>
+			<aspectTerm from="11" polarity="positive" term="custom" to="17"/>
+		</aspectTerms>
+	</sentence>
+</sentences>
