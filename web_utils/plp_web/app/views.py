@@ -5,6 +5,7 @@ from app.models import Product
 import time
 import os
 import shutil
+import json
 
 from amazon_search import return_amazon_reviews
 from match_reviews_reddit import return_review_from_reddit
@@ -52,16 +53,22 @@ def generate_result(platform, product, reviews, customed_category, products, tim
 	positive = [0]*len(categories)
 	neutral = [0]*len(categories)
 	negative = [0]*len(categories)
+	print(len(category_list_1D))
+	print(len(sentiment_list_1D))
 	for i in range(len(category_list_1D)):
-		sentiment = sentiment_list_1D[i]
-		category = category_list_1D[i]
-		index = categories.index(category)
-		if sentiment == 0:
-			positive[index] += 1
-		elif sentiment == 1:
-			negative[index] += 1
-		elif sentiment == 2:
-			neutral[index] += 1
+		try:
+			sentiment = sentiment_list_1D[i]
+			category = category_list_1D[i]
+			index = categories.index(category)
+			if sentiment == 0:
+				positive[index] += 1
+			elif sentiment == 1:
+				negative[index] += 1
+			elif sentiment == 2:
+				neutral[index] += 1
+		except Exception as e:
+			continue
+		
 	draw_histogram(positive, neutral, negative, categories, product, platform)
 
 	if len(products)== 0:
@@ -122,10 +129,13 @@ def analyse_result(request):
 		last_time = query_result[1]
 		if (last_time - timestamp) <= 86400: # no more that 1 day
 			query_tag = 1
-
-	# for i in range(len(products)):
-	# 	products[i].delete()
 	
+	for i in Product.objects.all():
+		if i.get_attributes()[0] == 'sony headphone':
+			print('delete')
+			i.delete()
+
+
 	platform = 'amazon'
 	if query_tag == 1:
 		shutil.copyfile('D:/plp_project/web_utils/plp_web/app/static/images/'+product+'_'+platform+'_wordcloud.jpg', 'D:/plp_project/web_utils/plp_web/app/static/images/1.jpg')
@@ -134,6 +144,7 @@ def analyse_result(request):
 		reviews = return_amazon_reviews(product)
 		for i in range(len(reviews)):
 			reviews[i] = reviews[i].replace('<','').replace('>','')
+		amazon_reviews = reviews
 		amazon_term_list, amazon_category_list, amazon_sentiment_list = generate_result(platform, product, reviews, customed_category, products, timestamp)
 
 	platform = 'reddit'
@@ -144,9 +155,17 @@ def analyse_result(request):
 		reviews = return_review_from_reddit(product)
 		for i in range(len(reviews)):
 			reviews[i] = reviews[i].replace('<','').replace('>','')
+		reddit_reviews = reviews
 		reddit_term_list, reddit_category_list, reddit_sentiment_list = generate_result(platform, product, reviews, customed_category, products, timestamp)
+	
+	if query_tag == 0:
+		write_dict = {'amazon_reviews':amazon_reviews,'reddit_reviews':reddit_reviews,'amazon_term_list':amazon_term_list,'amazon_category_list':amazon_category_list,'amazon_sentiment_list':amazon_sentiment_list,'reddit_term_list':reddit_term_list,'reddit_category_list':reddit_category_list,'reddit_sentiment_list':reddit_sentiment_list}
+		js = json.dumps(write_dict)
+		file = open(product+'.txt', 'w+')
+		file.write(js)
+		file.close()
+		statistics(product, amazon_term_list, amazon_category_list, amazon_sentiment_list, reddit_term_list, reddit_category_list, reddit_sentiment_list)
 
-	statistics(product, amazon_term_list, amazon_category_list, amazon_sentiment_list, reddit_term_list, reddit_category_list, reddit_sentiment_list)
 	shutil.copyfile('D:/plp_project/web_utils/plp_web/app/static/images/'+product+'_platform_comparison.jpg', 'D:/plp_project/web_utils/plp_web/app/static/images/5.jpg')
 
 	return render(request, 'result.html', {'product_name':match_product_name})
