@@ -1,3 +1,4 @@
+from operator import index
 import re
 from PIL import Image, ImageDraw, ImageFont
 from collections import Counter
@@ -19,6 +20,45 @@ def statistics(product, a_term_list, a_cat_list, a_senti_list, r_term_list, r_ca
 
 	r_pos_count=0
 	r_neg_count=0
+
+	res = {}
+
+	for i in range(len(a_cat_list)):
+		sentiment = a_senti_list[i]
+		index = a_cat_list[i]
+		try:
+			type(res[index])
+		except:
+			res[index] = {'pos':0, 'neg':0, 'neutral':0}
+		if sentiment == 0:
+			res[index]['pos'] += 1
+		elif sentiment == 1:
+			res[index]['neg'] += 1
+		elif sentiment == 2:
+			res[index]['neutral'] += 1
+	
+	for i in range(len(r_cat_list)):
+		sentiment = r_senti_list[i]
+		index = r_cat_list[i]
+		try:
+			type(res[index])
+		except:
+			res[index] = {'pos':0, 'neg':0, 'neutral':0}
+		if sentiment == 0:
+			res[index]['pos'] += 1
+		elif sentiment == 1:
+			res[index]['neg'] += 1
+		elif sentiment == 2:
+			res[index]['neutral'] += 1
+
+	scores =  [{'term':key, 'score': (res[key]['pos']*10+res[key]['neutral']*5)/(res[key]['pos']+res[key]['neg']+res[key]['neutral'])} for key in res.keys()]
+	scores = sorted(scores, key = lambda x: x['score'], reverse=True)
+
+	res_str = ''
+	for k in scores:
+		s = k['score']
+		res_str += (k['term'] + '(' + str(("%.2f"%s)) + ')' + '  ')
+
 
 #---------------------------Amazon------------------------------------------
 	for i,a_term in enumerate(a_term_list):
@@ -156,54 +196,58 @@ def statistics(product, a_term_list, a_cat_list, a_senti_list, r_term_list, r_ca
 	else:
 		platform1, platform2 = 'Reddit', 'Amazon'
 		pos_rate1, pos_rate2 = '{:.2%}'.format(Rate_R), '{:.2%}'.format(Rate_A)
+	
+	max_eff = max(eff_a, eff_r)
 
 
 	template = '''
-                                 The Analysis Report of [$product$] on Amazon and Reddit                                          
+                                 The Analysis Report of [$product$] on Amazon and Reddit       
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Our overall estimation of this product (10 for full marks): 
+
+$res_str$
+
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                             
+The most concerned aspect of this product on platforms:   
+                                                                                             
+Amazon: [$most_concerned_asp1$] ([$most_concerned_rate1$] of comments have mentiond.)
+Reddit: [$most_concerned_asp2$] ([$most_concerned_rate2$] of comments have mentiond.)   
                                                                                              
 ----------------------------------------------------------------------------------------------------------------------------------
                                                                                              
-Q: I wonder what aspect of this product is most concerned about on two platforms.   
-                                                                                             
-A: Consumers on the Amazon platform are most concerned about its [$most_concerned_asp1$]     
-(account for [$most_concerned_rate1$]), and those from Reddit are more interested in its     
-[$most_concerned_asp2$], with [$most_concerned_rate2$] opinion terms mentioned on it.    
-                                                                                             
+The aspects people like / dislike most about this product on platforms:
+                                                                                              
+Pros:  [$most_good_asp1$] (Amazon)  [$most_good_asp2$] (Reddit)
+
+Cons:  [$most_bad_asp1$] (Amazon)  [$most_bad_asp2$] (Reddit)
+                                                                                            
 ----------------------------------------------------------------------------------------------------------------------------------
-                                                                                             
-Q: So what aspects do people like / dislike most about this product on these platforms?     
-                                                                                             
-A: The finding is that Amazon customers prefer its [$most_good_asp1$] and are dissatisfied   
-with its [$most_bad_asp1$], while Reddit users mostly praise its [$most_good_asp2$], and     
-criticize its [$most_bad_asp2$].
-                                                                                             
+
+The Unaimous Aspects:
+
+[$most_good_agree$] (Amazon: $most_good_agree_rate1$ vs. Reddit: $most_good_agree_rate2$)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+The Controversial Aspects:
+
+[$most_good_agree$] (Amazon: $most_good_contro_rate1$ vs. Reddit: $most_good_contro_rate2$)
+                                                                                                                                                                                                                                                                                 
 ----------------------------------------------------------------------------------------------------------------------------------
                                                                                               
-Q: What aspect of this product receives unanimous praise from two platforms? And what aspect 
-is the most controversial one from these two?                                             
-                                                                                              
-A: The [$most_good_agree$] of this product is praised by both platforms, since the favorable 
-rates from Amazon ([$most_good_agree_rate1$]) and Reddit ([$most_good_agree_rate2$]) show    
-minimal differences comparing to other aspects. And its [$most_good_contro$] is the most     
-controversial one, given the maximal gap from Amazon ([$most_good_contro_rate1$])            
-to Reddit ([$most_good_contro_rate2$]).                                                     
-                                                                                             
-----------------------------------------------------------------------------------------------------------------------------------
-                                                                                              
-Q: Which platform to choose if I need more effective (non-neutral) opinions?                
+Better platform with more effective (non-neutral) opinions:               
                                                                                                                                                                                           
-A: The percentage of non-neutral sentiment terms from Amazon is [$eff_a$] and that from      
-Reddit is [$eff_r$], thus we suggest you to search from [$eff_plat$] to save time.         
+[$eff_plat$] (Comment Effective Rate: [$max_eff$]) .         
                                                                                              
 ----------------------------------------------------------------------------------------------------------------------------------
                                                                                              
-Q: I want to know the potential defects of this product, which platform should I choose to   
-obtain more valuable information?                                                           
+Better platform to collect critism:                                                            
                                                                                              
-A: According to our analysis, customers from [$platform1$] give a higher overall praise rate 
-([$pos_rate1$]) comparing to that from [$platform2$] ([$pos_rate2$]), we therefore recommend 
-you to go to [$platform2$] for more information if you require a more complete understanding 
-of its hidden shortcomings.
+[$platform2$] (Comment Non-positive Rate: [$pos_rate2$])
+
 '''
 
 	detect_vars = re.findall(r'\$(.*?)\$', template)
@@ -214,7 +258,7 @@ of its hidden shortcomings.
 			continue
 
 	d_font = ImageFont.truetype('C:/Windows/Fonts/timesbd.ttf', 16)
-	image = Image.new("L", (650, 16*55), "white")
+	image = Image.new("L", (650, 16*60), "white")
 	draw_table = ImageDraw.Draw(im=image)
 	draw_table.text(xy=(0, 0), text=template, fill='#000000', font= d_font, spacing=4)
 
