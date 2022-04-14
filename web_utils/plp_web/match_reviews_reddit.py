@@ -46,11 +46,16 @@ def match_reviews_from_reddit(product, page_count):
 
 	reviews = []
 	for i in range(len(post_titles)):
-		reviews.append((delete_emoji(post_titles[i]), delete_emoji(post_comment[i])))
+		try:
+			reviews.append((delete_emoji(post_titles[i]), delete_emoji(post_comment[i])))
+		except Exception as e:
+			continue
+		
 
 	return reviews
 
 def return_review_from_reddit(product):
+	product = product.replace(' ', '+')
 	all_reviews = []
 	page_count = 30
 	reviews = match_reviews_from_reddit(product, page_count)
