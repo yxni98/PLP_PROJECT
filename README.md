@@ -27,4 +27,4 @@ To see results from different settings, just modify the 'config.py'.
 3. Run the 'test.py', which load the checkpoint learned before and output the test results on 'data/processed/test.xml'.
 
 ## the website url (Welcome to use!)
-The website link is the http://plp2022acas.natapp1.cc/index/, we recommend you to run it on your phone.
+The website link is the http://plp2022acas.natapp1.cc/index/, we recommend you to visit it on your phone.
